@@ -1,5 +1,5 @@
 {
-  "remoteURL": "https://github.com/bellons91/personal-tech-notes.git",
+  "remoteURL": "git@github.com:bellons91/personal-tech-notes.git",
   "gitLocation": "",
   "syncinterval": 0,
   "isSyncOnLoad": true,
