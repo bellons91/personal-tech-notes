@@ -48,3 +48,4 @@
 - [ ] vedi come organizzare tag
 - [ ] controlla link rotti
 - [ ] i tag possono puntare alle note?
+- [ ] Sposta tutte le immagini

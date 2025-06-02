@@ -1,20 +1,22 @@
 ---
-tags: azure, az-204, authentication
+tags:
+  - azure
+  - az-204
+  - authentication
+  - MicrosoftEntra
 ---
 
-# Microsoft Identity Platform
-
-The Microsoft identity platform for developers is a set of tools that includes #authentication service, open-source libraries, and application management tools.
+ The Microsoft identity platform for developers is a set of tools that includes #authentication service, open-source libraries, and application management tools.
 
 It allows to use social accounts of Microsoft Identities to log in to your application, APIs, or [[Microsoft Graph API]].
 
 Microsoft Identity Platform is made of different components:
 
-- [[Oauth20]] and [[OpenId Connect]] compliant authentication services, used to integrate several identity types, such as
+- [[OAuth 2.0]] and [[OpenId Connect]] compliant authentication services, used to integrate several identity types, such as
   - work or school accounts, provisioned though [[azure-entra]];
   - personal accounts
   - social logins, using [[azure-ad-b2c]]
-- Open-source libraries, such as [[Microsoft Authentication Library]] (#MSAL), and other standard-compliant libraries;
+- Open-source libraries, such as [[Microsoft Authentication Library]], and other standard-compliant libraries;
 - Microsoft identity platform endpoints;
 - Application management portal;
 - Application configuration via APIs and PowerShell.

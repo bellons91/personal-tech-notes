@@ -2,7 +2,12 @@
   "version": "1.2.2",
   "previousVersion": "1.0.0",
   "groupBy": 0,
-  "expandedFolderItems": [],
+  "expandedFolderItems": [
+    "how-to",
+    "azure",
+    "azure/azure-authentication",
+    "azure/azure-authentication/Shared Access Signatures.md"
+  ],
   "expandedFileItems": [],
   "expandedLinkItems": [],
   "folderSort": 0,

@@ -1,12 +1,17 @@
 ---
-tags: az-204, azure, identity, authentication
+tags:
+  - az-204
+  - azure
+  - identity
+  - authentication
+  - MicrosoftEntra
+aliases:
+  - MSAL
 ---
-
-# Microsoft Authentication Library (MSAL)
 
 The Microsoft Authentication Library (MSAL) enables developers to acquire tokens from the Microsoft identity platform in order to authenticate users and access secured web APIs.
 
-MSAL gives you many ways to get tokens, with a consistent API for many platforms. Using MSAL provides the following benefits:
+MSAL gives you many ways to get #tokens, with a consistent API for many platforms. Using MSAL provides the following benefits:
 
 - No need to directly use the OAuth libraries or code against the protocol in your application.
 - Acquires tokens on behalf of a user or on behalf of an application (when applicable to the platform).
@@ -24,7 +29,7 @@ With MSAL.NET 3.x, the recommended way to instantiate an application is by using
 - Client Id
 - Identity provider URL
 - TenantID
-- Application secret or *X509Certificate2* certificate
+- Application secret or #X509Certificate2 #certificate
 - RedirectURI, for public websites.
 
 When you register an application, it automatically generates an API permission `user.read` for Microsoft Graph. You can use that permission to acquire a token.

@@ -1,12 +1,16 @@
 ---
-tags: az-204, authentication, shared-access-signature, sas
+tags:
+  - az-204
+  - authentication
+  - shared-access-signature
+  - MicrosoftEntra
+aliases:
+  - SAS
 ---
 
-# Shared Access Signatures
+A shared access signature (SAS) is a **signed URI** that points to one or more storage resources and includes a #token that contains a special set of query parameters.
 
-A shared access signature (SAS) is a **signed URI** that points to one or more storage resources and includes a token that contains a special set of query parameters.
-
-The token indicates how the resources might be accessed by the client. One of the query parameters, the signature, is constructed from the SAS parameters and signed with the key that was used to create the SAS. This signature is used by Azure Storage to authorize access to the storage resource.
+The token indicates how the resources might be accessed by the client. One of the query parameters, the signature, is constructed from the SAS parameters and signed with the key that was used to create the SAS. This signature is used by [[Azure Storage]] to authorize access to the storage resource.
 
 There are three types of shared access signatures:
 
@@ -35,7 +39,7 @@ The SAS token is made up of several parts:
 
 There are some best practices to follow:
 
-- To securely distribute a SAS and prevent man-in-the-middle attacks, **always use HTTPS**.
+- To securely distribute a SAS and prevent [[man-in-the-middle]] attacks, **always use HTTPS**.
 - **The most secure SAS is a user delegation SAS**. Use it wherever possible because it removes the need to store your storage account key in code. You must use Microsoft Entra ID to manage credentials. This option might not be possible for your solution.
 - Try to **set your expiration time to the smallest useful value**. If a SAS key becomes compromised, it can be exploited for only a short time.
 - **Apply the rule of minimum-required privileges**. Only grant the access that's required. For example, in your app, read-only access is sufficient.

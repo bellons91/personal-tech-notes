@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General.md",
+                "file": "azure/Azure Authentication/Stored Access Policies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General"
+              "title": "Stored Access Policies"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "b2c",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of General"
             }
+          },
+          {
+            "id": "f53fcd02c5b955f5",
+            "type": "leaf",
+            "state": {
+              "type": "broken-links-view",
+              "state": {},
+              "icon": "unlink",
+              "title": "Broken links"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,8 +181,17 @@
   },
   "active": "57a0605ccb6ff5a8",
   "lastOpenFiles": [
-    "Untitled.md",
+    "azure/Azure Authentication/Shared Access Signatures.md",
+    "azure/Azure Authentication/Stored Access Policies.md",
     "General.md",
+    "azure/Azure Authentication/Service Principal.md",
+    "azure/Azure Authentication/Microsoft Identity Platform.md",
+    "azure/Azure Authentication/Application Object.md",
+    "azure/Azure Authentication/Microsoft Entra tenant.md",
+    "azure/Azure Authentication/Microsoft Authentication Library.md",
+    "azure/Azure Authentication/Managed Identity.md",
+    "SSO.md",
+    "Untitled.md",
     "templates/Note.md",
     "how-to/how-to-add-azure-k8s-cluster-on-lens.md",
     "templates",
@@ -191,15 +210,6 @@
     "general/saas.md",
     "general/risk-matrix.png",
     "general/principle-of-least-privilege.md",
-    "general/Platform-as-a-Service.md",
-    "general/pfx-file.md",
-    "general/paas.md",
-    "general/OAuth 2.0.md",
-    "general/Model Context Protocol.md",
-    "general/io-bound-operations.md",
-    "general/iaas.md",
-    "general/fido2-authentication.md",
-    "general/docker-file.md",
     "general/defense-in-depth-layers.png",
     "general/dapr-apis.png",
     "general",
@@ -214,7 +224,7 @@
     "azure/azure-entra",
     "azure/azure-cosmos-db",
     "azure/azure-container",
-    "azure/azure-authentication",
+    "azure/Azure Authentication",
     "azure/azure-app-service",
     "azure"
   ]
