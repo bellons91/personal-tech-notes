@@ -1,13 +1,12 @@
 ---
-type: basic-note
-foam_template:
-  filepath: "./azure/azure-app-service-plan.md"
-tags: azure, cloud, az-204
+tags:
+  - azure
+  - cloud
+  - az-204
+  - azure-app-services
 ---
 
-# Azure App Service Plan
-
-An [[azure-app-service]] always runs in an App Service plan, which defines the set of compute resources available to the app.
+An [[Azure App Service]] always runs in an App Service plan, which defines the set of compute resources available to the app.
 
 One or more apps can be configured to run in the same App Service Plan.
 
@@ -15,7 +14,7 @@ Each App Service plan defines:
 
 - Operating System (Windows, Linux)
 - Region (West US, East US, etc.)
-- Number of VM instances
+- Number of #VM instances
 - Size of VM instances (Small, Medium, Large)
 - Pricing tier (Free, Shared, Basic, Standard, Premium, PremiumV2, PremiumV3, Isolated, IsolatedV2)
 
@@ -66,9 +65,3 @@ Similar to Dedicated compute, but with even more isolation.
   - `az webapp up`, which can also create a new App Service
   - Zip deployment, using `curl`
   - FTP/FTPS
-
-## Deployment slots
-
-**Standard** App Service Plan tier or better.
-
-Used to swap staging and production slots.

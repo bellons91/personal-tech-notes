@@ -2,9 +2,7 @@
 tags: azure, cloud, az-204, authentication, authorization, azure-app-services
 ---
 
-# Azure App Service Authentication and Authorization
-
-The built-in authentication feature for App Service provides out-of-the-box authentication with **federated identity providers** (a third-party identity provider manages the user identities and authentication flow for you).
+The built-in authentication feature for App Service provides out-of-the-box authentication with #federated identity providers (a third-party identity provider manages the user identities and authentication flow for you).
 
 Azure App Service allows you to integrate various auth capabilities into your web app or API without implementing them yourself.
 
@@ -12,12 +10,12 @@ It’s built directly into the platform and **doesn’t require any particular l
 
 You can **integrate with multiple login providers**. For example:
 
-- Microsoft Entra ID
+- [[azure-entra]]
 - Facebook
 - Google
 - Twitter
 - GitHub
-- other OpenID Connect providers
+- other [[OpenID Connect]] providers
 
 When you enable authentication and authorization with one of these providers, its sign-in endpoint is available for user authentication and for validation of authentication tokens from the provider.
 

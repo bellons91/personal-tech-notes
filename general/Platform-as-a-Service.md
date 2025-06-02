@@ -12,7 +12,7 @@ The cloud provider maintains:
 
 - [[microsoft-purview]]
 - Event Hub
-- [[azure-app-service]]
+- [[Azure App Service]]
 - [[azure-container-apps]]
 - [[azure-kubernetes-service]]
 - [[azure-entra]]

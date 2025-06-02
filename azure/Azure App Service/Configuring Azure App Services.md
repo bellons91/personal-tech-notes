@@ -1,8 +1,10 @@
 ---
-tags: azure, cloud, az-204
+tags:
+  - azure
+  - cloud
+  - az-204
+  - azure-app-services
 ---
-
-# Configuring Azure App Services
 
 ## Application settings
 
@@ -10,7 +12,7 @@ In Azure App Services, configurations are stored as _environment variables_.
 
 App settings are always encrypted when stored (_encrypted-at-rest_).
 
-If you are using [[azure-app-services-deployment-slots]], you can mark a setting as _swappable_.
+If you are using [[Azure App Services Deployment Slots]], you can mark a setting as _swappable_.
 
 Note: **the key format changes for Linux-based containers**. Instead of using `Key:SubKey` you have to use `Key__SubKey`.
 
@@ -25,11 +27,11 @@ Examples are:
 - **Stack settings**: language and SDK version;
 - **Platform settings**: used to configure the hosting platform.
   - **Bitness**: 32- or 64-bit;
-  - **WebSocket protocol**: useful for SignalR;
+  - **WebSocket protocol**: useful for [[SignalR]];
   - **[[always-on]]**: disabled by default;
   - **Managed pipeline version**: The IIS pipeline mode. Set it to _Classic_ if you have a legacy app that requires an older version of IIS.
   - **HTTP version**: Set to 2.0 to enable support for HTTPS/2 protocol.
-  - **[[general/arr-affinity]]**: In a multi-instance deployment, ensure that the client is routed to the same instance for the life of the session. You can set this option to _Off_ for stateless applications.
+  - **[[arr-affinity]]**: In a multi-instance deployment, ensure that the client is routed to the same instance for the life of the session. You can set this option to _Off_ for stateless applications.
 - **Debugging**: Enable remote debugging for ASP.NET, ASP.NET Core, or Node.js apps. This option turns off automatically after 48 hours.
 - **Incoming client certificates**: require client certificates in mutual authentication. [[tls]] mutual authentication is used to restrict access to your app by enabling different types of authentication for it.
 

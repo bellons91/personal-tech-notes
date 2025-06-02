@@ -1,8 +1,11 @@
 ---
-tags: azure, cloud, az-204, linux
+tags:
+  - azure
+  - cloud
+  - az-204
+  - linux
+  - azure-app-services
 ---
-
-# Azure App Service on Linux
 
 You can choose to host a web app on Linux for supported application stacks.
 

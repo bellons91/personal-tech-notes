@@ -2,8 +2,6 @@
 tags: azure, cloud, az-900, paas, az-204
 ---
 
-# Azure App Service
-
 Build and host web apps, background jobs, mobile back-ends, and RESTful APIs **without managing infrastructure**.
 
 It offers automatic scaling and high availability.
@@ -12,9 +10,9 @@ It is an HTTP-based service for hosting web applications, REST APIs, and mobile 
 
 With Azure App Service you can both [[scale-up-down]] and [[scale-in-out]].
 
-You can use CI/CD and [[azure-app-services-deployment-slots]].
+You can use CI/CD and [[Azure App Services Deployment Slots]].
 
-Each App Service belongs to an [[azure-app-service-plan]], which defines the compute capabilities.
+Each App Service belongs to an [[Azure App Service Plan]], which defines the compute capabilities.
 
 ## Types of App Services
 
@@ -47,7 +45,7 @@ Used to build a backend for iOS and Android applications.
 
 ## Deployment types
 
-There are two main deployment types, depending on the [[azure-app-service-plan]].
+There are two main deployment types, depending on the [[Azure App Service Plan]].
 
 - **multitenant public service**: host App Service plans in
   - Free
@@ -57,8 +55,6 @@ There are two main deployment types, depending on the [[azure-app-service-plan]]
   - Premium, PremiumV2, PremiumV3
 - **single-tenant environment**: available for Isolated SKU.
 
-Related: [[azure-app-services-multitenant-networking]]
-
 ## Autoscaling
 
-[[azure-app-service-autoscale]] monitors the resource metrics of a web app as it runs. It detects situations where other resources are required to handle an increasing workload, and ensures those resources are available before the system becomes overloaded.
+[[Azure App Service Autoscale]] monitors the resource metrics of a web app as it runs. It detects situations where other resources are required to handle an increasing workload, and ensures those resources are available before the system becomes overloaded.

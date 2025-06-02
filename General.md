@@ -44,8 +44,8 @@
 - [ ] Rinomina note
 - [ ] riorganizza cartelle
 - [ ] aggiungi tag
-- [ ] Crea template con tags e link aggiuntivi
+- [x] Crea template con tags e link aggiuntivi ✅ 2025-06-02
 - [ ] vedi come organizzare tag
-- [ ] controlla link rotti
+- [ ] sistema link rotti
 - [ ] i tag possono puntare alle note?
 - [ ] Sposta tutte le immagini

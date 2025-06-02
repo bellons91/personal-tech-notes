@@ -2,8 +2,6 @@
 tags: azure, cloud, az-204, azure-app-services, deployment-slots
 ---
 
-# Azure App Services Deployment Slots
-
 When you deploy your web app, you can use a separate deployment slot instead of the default production slot when running in the **Standard, Premium, or Isolated App Service Plan tier**.
 
 Deployment slots are live apps **with their own host names**.

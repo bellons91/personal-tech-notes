@@ -1,12 +1,15 @@
 ---
-tags: azure, cloud, az-204, autoscaling
+tags:
+  - azure
+  - cloud
+  - az-204
+  - autoscaling
+  - azure-app-services
 ---
-
-# Azure App Service Autoscale
 
 Autoscaling is a cloud system or process that adjusts available resources based on the current demand.
 
-Autoscaling performs [[scale-in-out]] as opposed to scaling up and down.
+Autoscaling performs [[scale-in]] and [[scale-out]] as opposed to [[scale-up]] and [[scale-down]].
 
 Autoscaling can be triggered according to a schedule or by assessing whether the system is running short on resources.
 
@@ -14,9 +17,9 @@ Autoscaling responds to changes in the environment by adding or removing web ser
 
 Autoscaling doesn't have any effect on the CPU power, memory, or storage capacity of the web servers powering the app; **it only changes the number of web servers**.
 
-Autoscaling makes its decisions based on rules that you define. A rule specifies the **threshold for a metric**, and triggers an autoscale event when this threshold is crossed. Autoscaling can also deallocate resources when the workload has diminished.
+Autoscaling makes its decisions based on rules that you define. A rule specifies the **threshold for a metric**, and triggers an **autoscale event** when this threshold is crossed. Autoscaling can also deallocate resources when the workload has diminished.
 
-Autoscaling should only be used on _genuine_ requests. For example, a [[DoS]] attack will flood the server with malicious resources. Trying to handle these requests is useless (and expensive), so it's better to detect them and discard them.
+Autoscaling should only be used on *genuine* requests. For example, a [[DoS]] attack will flood the server with malicious resources. Trying to handle these requests is useless (and expensive), so it's better to detect them and discard them.
 
 Autoscaling provides [[elasticity]] for your services, allowing you to add resources during peaks like special events or remove resources during weekends. It also improves [[availability]] and [[Fault tolerance]], ensuring that client requests won't be rejected because the instance has crashed.
 
@@ -24,7 +27,7 @@ Autoscaling provides [[elasticity]] for your services, allowing you to add resou
 
 Autoscaling is also affected by the number of instances of the service. The fewer the number of instances initially, the less capacity you have to handle an increasing workload while autoscaling spins up more instances.
 
-Autoscaling is a feature tightly bound to [[azure-app-service-plan]]. Each Service Plan has an associated scaling limit that cannot be surpassed. Not all service plans support autoscaling. **The development pricing tiers are either limited to a single instance (the F1 and D1 tiers)**, or they only provide **manual scaling (the B1 tier)**. If you've selected one of these tiers, you must first scale up to the S1 or any of the P-level production tiers.
+Autoscaling is a feature tightly bound to [[Azure App Service Plan]]. Each Service Plan has an associated scaling limit that cannot be surpassed. Not all service plans support autoscaling. **The development pricing tiers are either limited to a single instance (the F1 and D1 tiers)**, or they only provide **manual scaling (the B1 tier)**. If you've selected one of these tiers, you must first scale up to the S1 or any of the P-level production tiers.
 
 ## Autoscale conditions and rules
 
@@ -32,8 +35,6 @@ You indicate how to autoscale by creating **autoscale conditions**. Azure provid
 
 - Scale based on a **metric**, such as the length of the [[disk queue]] or the number of HTTP requests awaiting processing.
 - Scale to a specific instance count according to a **schedule**. For example, you can arrange to scale out at a particular time of day or on a specific date or day of the week. You also specify an end date, and the system scales back in at that time.
-
-![Autoscale settings](./autoscale-settings.png)
 
 Scaling to a specific instance count only enables you to scale out to a defined number of instances. If you need to scale out incrementally, you can combine metric and schedule-based autoscaling in the same autoscale condition.
 

@@ -1,8 +1,10 @@
 ---
-tags: azure, cloud, az-204,
+tags:
+  - azure
+  - cloud
+  - az-204
+  - azure-app-services
 ---
-
-# Multitenant App Service networking
 
 The roles that handle incoming HTTP or HTTPS requests are called **front ends**.
 
@@ -30,7 +32,7 @@ Since you cannot connect directly to the App Service, you have to use the functi
 
 ## Outbound addresses
 
-Depending on the [[azure-app-service-plan]], you use a different set of worker VMs, each with a different set of outbound addresses.
+Depending on the [[Azure App Service Plan]], you use a different set of worker VMs, each with a different set of outbound addresses.
 
 There are three groups:
 
