@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Note.md",
+                "file": "General.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note"
+              "title": "General"
             }
           }
         ]
@@ -163,13 +163,16 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "broken-links:View broken links": false,
+      "github-sync:Sync with Remote": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "57a0605ccb6ff5a8",
   "lastOpenFiles": [
-    "how-to/how-to-add-azure-k8s-cluster-on-lens.md",
     "templates/Note.md",
+    "how-to/how-to-add-azure-k8s-cluster-on-lens.md",
     "templates",
     "General.md",
     "fido2-authentication.md",
