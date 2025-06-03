@@ -2,8 +2,6 @@
 tags: azure, cloud, az-204, azure-cli, acr, containers
 ---
 
-# Operations on ACR with Cloud CLI
-
 This page lists some scripts useful for working with [[Azure Container Registry]].
 
 ## Create ACR
@@ -105,7 +103,7 @@ az acr build
 
 You can find the result in the UI:
 
-![Docker Image is now visible in the UI](./docker-image-in-acr-ui.png)
+![Docker Image is now visible in the UI](docker-image-in-acr-ui.png)
 
 ## Show all images under a repository
 

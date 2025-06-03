@@ -1,14 +1,17 @@
 ---
-tags: azure, cloud, az-900, azure-cli, networking
+tags:
+  - azure
+  - cloud
+  - az-900
+  - azure-cli
+  - networking
 ---
-
-# Operations on Azure Virtual Network with Cloud CLI
 
 This page lists some scripts useful for operating on [[Azure Virtual Network]].
 
 ## List Network Security Groups
 
-With this script you can list the [[Azure Virtual Network]] that are associated with your VM:
+With this script you can list the [[Azure Virtual Network]] that are associated with your #VM:
 
 ```bash
 az network nsg list

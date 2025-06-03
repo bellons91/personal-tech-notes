@@ -2,8 +2,6 @@
 tags: azure, cloud, az-204, azure-cli, acr, containers
 ---
 
-# Operations on ACI with Cloud CLI
-
 This page lists some scripts useful for working with [[Azure Container Instances]].
 
 ## Create ACI Container group

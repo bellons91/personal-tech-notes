@@ -1,8 +1,11 @@
 ---
-tags: azure, cloud, azure-cli, az-204
+tags:
+  - azure
+  - cloud
+  - azure-cli
+  - az-204
+  - azure-app-services
 ---
-
-# Azure App Service Scripts
 
 This page lists some scripts useful for operating with [[Azure App Service]].
 

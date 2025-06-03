@@ -74,4 +74,4 @@ Network traffic between peered networks is private, and travels on the Microsoft
 
 ## Additional resources
 
-You can use the Azure Shell to operate on a Virtual Network: [[azure-network-scripts]].
+You can use the Azure Shell to operate on a Virtual Network: [[Operations on Azure Virtual Network with Cloud CLI]].

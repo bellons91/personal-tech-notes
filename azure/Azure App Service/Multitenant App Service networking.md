@@ -49,4 +49,4 @@ Using the CLI, you can see:
 - the list of outbound addresses available for your app
 - the list of all possible outbound addresses for your app, regardless of the pricing tier.
 
-See [[azure-app-service-scripts#List available outbound addresses]].
+See [[Azure App Service Scripts#List available outbound addresses]].

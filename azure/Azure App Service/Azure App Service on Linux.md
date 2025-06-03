@@ -25,7 +25,7 @@ If a framework is missing, you can deploy a custom container.
 
 To see which are the supported versions, you can run this command:
 
-[[azure-app-service-scripts#List the available runtimes]]
+[[Azure App Service Scripts#List the available runtimes]]
 
 ## Known Limitations
 

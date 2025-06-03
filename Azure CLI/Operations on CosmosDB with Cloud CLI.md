@@ -1,8 +1,11 @@
 ---
-tags: azure, cloud, az-900, azure-cli
+tags:
+  - azure
+  - cloud
+  - az-900
+  - azure-cli
+  - cosmosdb
 ---
-
-# Operations on CosmosDB with Cloud CLI
 
 This page lists some scripts useful for operating on [[Azure Cosmos DB]].
 

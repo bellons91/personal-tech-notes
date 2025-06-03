@@ -49,4 +49,4 @@ Two ways to define Availability Sets:
 
 ## Additional resources
 
-Operate on VM using Azure CLI: [[azure-vm-scripts]]
+Operate on VM using Azure CLI: [[Operations on VM with Cloud CLI]]
