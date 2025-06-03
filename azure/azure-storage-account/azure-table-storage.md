@@ -12,4 +12,4 @@ Ideal for structured, non-relational data.
 
 This service provides a list of endpoints available at https://{storage-account-name}.table.core.windows.net
 
-Now these tables can be used in [[azure-cosmos-db]].
+Now these tables can be used in [[Azure Cosmos DB]].

@@ -1,10 +1,13 @@
 ---
-tags: azure, cloud, az-204, azure-cosmos-db
+tags:
+  - azure
+  - cloud
+  - az-204
+  - azure-cosmos-db
+  - trigger
 ---
 
-# Azure Cosmos DB Pre-triggers and Post-triggers
-
-Azure Cosmos DB supports pretriggers and post-triggers.
+Azure Cosmos DB supports pre-triggers and post-triggers.
 
 Triggers aren't automatically executed, **they must be specified for each database operation where you want them to execute**.
 
@@ -12,7 +15,7 @@ After you define a trigger, you should register it by using the Azure Cosmos DB 
 
 ## Pre-triggers
 
-Pretriggers are executed before modifying a database item. **Pretriggers can't have any input parameters**.
+Pre-triggers are executed before modifying a database item. **Pre-triggers can't have any input parameters**.
 
 Here's an example of pre-trigger that manipulates the request message associated with the operation.
 

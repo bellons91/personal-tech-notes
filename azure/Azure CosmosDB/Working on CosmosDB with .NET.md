@@ -2,8 +2,6 @@
 tags: cosmosdb, csharp, dotnet
 ---
 
-# Working on CosmosDB with .NET
-
 You can use NuGet package _Microsoft.Azure.Cosmos_ to work with CosmosDB.
 
 ## Use and consume a CosmosClient

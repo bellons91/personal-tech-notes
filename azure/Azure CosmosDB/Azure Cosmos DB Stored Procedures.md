@@ -1,14 +1,18 @@
 ---
-tags: azure, cloud, az-204, azure-cosmos-db
+tags:
+  - azure
+  - cloud
+  - az-204
+  - azure-cosmos-db
+  - database
+  - stored-procedure
 ---
-
-# Azure Cosmos DB Stored Procedures
 
 **Stored procedures are registered per collection**, and can operate on any document or an attachment present in that collection.
 
 **Stored procedures are written using JavaScript**. They can create, update, read, query, and delete items within an Azure Cosmos DB container.
 
-For partitioned containers, when you run a stored procedure, you must provide a partition key value in the request options. **Stored procedures are always scoped to a partition key**. Items that have a different partition key value aren't visible to the stored procedure.
+For partitioned containers, when you run a stored procedure, you must provide a partition key value in the request options. **Stored procedures are always scoped to a #partitionkey**. Items that have a different partition key value aren't visible to the stored procedure.
 
 Here's a stored procedure that just returns a Hello World response.
 

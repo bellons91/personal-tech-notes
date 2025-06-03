@@ -3,5 +3,7 @@
   "broken-links",
   "github-sync",
   "obsidian-mind-map",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-git",
+  "paste-link"
 ]

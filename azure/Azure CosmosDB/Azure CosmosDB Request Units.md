@@ -1,8 +1,12 @@
 ---
-tags: azure, cloud, az-204, azure-cosmos-db
+tags:
+  - azure
+  - cloud
+  - az-204
+  - azure-cosmos-db
+  - request-unit
+  - ru
 ---
-
-# Azure CosmosDB Request Units
 
 A request unit represents the system resources such as [[CPU]], [[IOPS]], and memory that are required to perform the database operations supported by Azure Cosmos DB.
 
@@ -12,6 +16,6 @@ The type of Azure Cosmos DB account you're using determines the way consumed RUs
 
 - **Provisioned throughput mode**: you provision the number of RUs for your application on a per-second basis in increments of **100 RUs per second**. To scale the provisioned throughput for your application, you can increase or decrease the number of RUs at any time in increments or decrements of 100 RUs. **You can provision throughput at container and database** granularity level.
 - **Serverless mode**: you don't have to provision any throughput when creating resources in your Azure Cosmos DB account. At the end of your billing period, you get billed for the number of request units that have been consumed by your database operations. **With serverless mode you cannot use multiple regions**.
-- **Autoscale mode**: ou can automatically and instantly scale the throughput (RU/s) of your database or container based on its usage.
+- **Autoscale mode**: you can automatically and instantly scale the throughput (RU/s) of your database or container based on its usage.
 
 [Read more](https://learn.microsoft.com/en-gb/azure/cosmos-db/throughput-serverless)

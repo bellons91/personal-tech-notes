@@ -2,9 +2,7 @@
 tags: azure, cloud, az-204, azure-cosmos-db
 ---
 
-# Azure Cosmos DB
-
-Azure Cosmos DB is a **fully managed NoSQL database** designed to provide low latency, elastic scalability of throughput, well-defined semantics for data consistency, and high availability.
+Azure Cosmos DB is a **fully managed #NoSQL database** designed to provide low latency, elastic scalability of throughput, well-defined semantics for data consistency, and high availability.
 
 You can configure your databases to be globally distributed and available in any of the [[azure-region]]. To lower the latency, place the data close to where your users are.
 
@@ -18,21 +16,21 @@ However, you can configure it to have only one region enabled for writing.
 
 Your application can perform near **real-time reads and writes against all the regions** you chose for your database. Azure Cosmos DB internally handles the data replication between regions with consistency level guarantees of the level you've selected.
 
-To use CosmoDB you have to create a [[azure-cosmos-db-account]]. Every account can have one or more [[azure-cosmos-db-database]], each containing one or more [[azure-cosmos-db-container]]. Each container then is a collection of [[azure-cosmos-db-item]].
+To use CosmoDB you have to create a [[Azure Cosmos DB Account]]. Every account can have one or more [[Azure Cosmos DB Database]], each containing one or more [[Azure CosmosDB Container]]. Each container then is a collection of [[Azure CosmosDB Item]].
 
-![CosmosDB Hierarcy](./cosmosdb-resources-hierarchy.png)
+![CosmosDB Hierarcy](cosmosdb-resources-hierarchy.png)
 
-For each account you can define its [[azure-cosmos-db-consistency-levels]].
+For each account you can define its [[Azure CosmosDB Consistency levels]].
 
-With Azure Cosmos DB, you pay for the throughput you provision and the storage you consume on an hourly basis. Throughput must be provisioned to ensure that sufficient system resources are available for your Azure Cosmos database always. DB operations are expressed in [[azure-cosmos-db-request-units]].
+With Azure Cosmos DB, you pay for the throughput you provision and the storage you consume on an hourly basis. Throughput must be provisioned to ensure that sufficient system resources are available for your Azure Cosmos database always. DB operations are expressed in [[Azure CosmosDB Request Units]].
 
 Azure Cosmos DB encryption protects your data at rest by seamlessly encrypting your data as it's written in our datacenters, and automatically decrypting it for you as you access it.
 
 ## Stored procedures, Triggers, User-defined functions
 
-With Azure Cosmos DB you can use **Stored Procedures, Triggers, and User-Defined Functions**. To call a stored procedure, trigger, or user-defined function, you need to register it.
+With Azure Cosmos DB you can use **Stored Procedures, Triggers, and [[User-Defined Functions]]**. To call a stored procedure, trigger, or user-defined function, you need to register it.
 
-See [[azure-cosmos-db-stored-procedures]], [[azure-cosmos-db-triggers]], and [[azure-cosmos-db-user-defined-functions]].
+See [[Azure Cosmos DB Stored Procedures]], [[Azure Cosmos DB triggers]], and [[Azure Cosmos DB User-defined functions]].
 
 ## Backup
 

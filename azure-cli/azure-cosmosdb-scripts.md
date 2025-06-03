@@ -4,7 +4,7 @@ tags: azure, cloud, az-900, azure-cli
 
 # Operations on CosmosDB with Cloud CLI
 
-This page lists some scripts useful for operating on [[azure-cosmos-db]].
+This page lists some scripts useful for operating on [[Azure Cosmos DB]].
 
 ## Create a CosmosDB account
 

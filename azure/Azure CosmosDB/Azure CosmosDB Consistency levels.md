@@ -2,11 +2,9 @@
 tags: azure, cloud, az-204, azure-cosmos-db
 ---
 
-# Azure CosmosDB Consistency levels
-
 Azure Cosmos DB approaches data consistency as a spectrum of choices instead of two extremes.
 
-Strong consistency and eventual consistency are at the ends of the spectrum, but there are many consistency choices along the spectrum.
+[[Strong consistency]] and [[eventual consistency]] are at the ends of the spectrum, but there are many consistency choices along the spectrum.
 
 Developers can use these options to make precise choices and granular tradeoffs with respect to high availability and performance. There are five consistency levels:
 
@@ -16,7 +14,7 @@ Developers can use these options to make precise choices and granular tradeoffs 
 4. Consistent prefix
 5. Eventual
 
-The weaker is the consistency, the higher are the availability and throughput. Also, latency becomes lower.
+The weaker is the consistency, the higher are the availability and throughput. Also, #latency becomes lower.
 
 Consistency levels are region-agnostic and guaranteed for all operations. The default consistency level configured on your account applies to all Azure Cosmos DB databases and containers under that account.
 
@@ -34,7 +32,7 @@ A client never sees an uncommitted or partial write.
 
 Users are always guaranteed to read the latest committed write.
 
-![Strong Consistency](./strong-consistency.png)
+![Strong Consistency](strong-consistency.png)
 
 ## Bounded staleness consistency
 
@@ -53,7 +51,7 @@ Bounded staleness consistency is most frequently chosen by globally distributed 
 
 Unlike strong consistency which is scoped to a single region, you can choose bounded staleness consistency with any number of read regions (along with a write region). Bounded staleness is great for applications featuring group collaboration and sharing, stock ticker, publish-subscribe/queueing etc
 
-![Bounded staleness consistency](./bounded-staleness-consistency.png)
+![Bounded staleness consistency](bounded-staleness-consistency.png)
 
 ## Session consistency
 
@@ -65,7 +63,7 @@ This is the **default consistency level**.
 
 It provides write latencies, availability and read throughput comparable to that of eventual consistency but also provides the consistency guarantees that suit the needs of applications written to operate in the context of a user.
 
-![Session consistency](./session-consistency.png)
+![Session consistency](session-consistency.png)
 
 ## Consistent prefix consistency
 
@@ -75,15 +73,13 @@ Updates made as a batch within a transaction, are returned consistent to the tra
 
 Write operations within a transaction of multiple documents are always visible together.
 
-[[Chiarisci!]]
-
 Assume two write operations are performed on documents Doc 1 and Doc 2, within transactions T1 and T2. When client does a read in any replica, the user sees either “Doc 1 v1 and Doc 2 v1” or “Doc 1 v2 and Doc 2 v2”, but never “Doc 1 v1 and Doc 2 v2” or “Doc 1 v2 and Doc 2 v1” for the same read or query operation.
 
 If writes were performed in the order `A, B, C`, then a client sees either `A`, `A,B`, or `A,B,C`, but never out of order like `A,C` or `B,A,C`.
 
 Consistent Prefix provides write latencies, availability and read throughput comparable to that of eventual consistency, but also **provides the order guarantees** that suit the needs of scenarios where order is important.
 
-![Consistent prefix consistency](./consistent-prefix-consistency.png)
+![Consistent prefix consistency](consistent-prefix-consistency.png)
 
 ## Eventual consistency
 
@@ -93,8 +89,7 @@ Eventual consistency is the weakest form of consistency because **a client may r
 
 Eventual consistency is ideal where the application doesn't require any ordering guarantees. Examples include count of Retweets, Likes, or nonthreaded comments.
 
-![Eventual consistency](./eventual-consistency.png)
+![Eventual consistency](eventual-consistency.png)
 
-[[aggiungi https://en.wikipedia.org/wiki/Consistency_model]]
-
-[[https://learn.microsoft.com/en-gb/azure/cosmos-db/consistency-levels]]
+[Wikipedia](https://en.wikipedia.org/wiki/Consistency_model)
+[Consistency Levels on Microsoft Learn](https://learn.microsoft.com/en-gb/azure/cosmos-db/consistency-levels)

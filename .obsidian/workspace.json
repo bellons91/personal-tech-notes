@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "azure/Azure App Service/Azure App Service.md",
+                "file": "azure/Azure CosmosDB/Working on CosmosDB with .NET.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Azure App Service"
+              "title": "Working on CosmosDB with .NET"
             }
           }
         ]
@@ -160,13 +160,23 @@
               "icon": "unlink",
               "title": "Broken links"
             }
+          },
+          {
+            "id": "bace898609087bca",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,11 +186,23 @@
       "command-palette:Open command palette": false,
       "broken-links:View broken links": false,
       "github-sync:Sync with Remote": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "ea1d09dcc0d5ca07",
   "lastOpenFiles": [
+    "azure/Azure CosmosDB/Azure Cosmos DB User-defined functions.md",
+    "azure/Azure CosmosDB/Azure Cosmos DB triggers.md",
+    "azure/Azure CosmosDB/Azure Cosmos DB Stored Procedures.md",
+    "azure/Azure CosmosDB/Azure CosmosDB Request Units.md",
+    "azure/Azure CosmosDB/Azure CosmosDB Item.md",
+    "azure/Azure CosmosDB/Azure Cosmos DB Database.md",
+    "azure/Azure CosmosDB/Azure CosmosDB Container.md",
+    "azure/Azure CosmosDB/Azure CosmosDB Consistency levels.md",
+    "azure/Azure CosmosDB/Azure Cosmos DB Account.md",
+    "azure/Azure CosmosDB/Azure Cosmos DB.md",
+    "azure/Azure App Service/Azure App Service.md",
     "azure/Azure Container/Azure Container Registry.md",
     "azure/azure-container/docker-swarm.md",
     "azure/Azure Container/Azure Container Instances.md",
@@ -198,17 +220,6 @@
     "azure/Azure App Service/app-service-plans.png",
     "azure/Azure App Service/Azure App Service Plan.md",
     "azure/Azure App Service/Multitenant App Service networking.md",
-    "general/tls.md",
-    "azure/Azure App Service/Azure App Services Deployment Slots.md",
-    "azure/Azure App Service/Azure App Service on Linux.md",
-    "azure/Azure App Service/Azure App Service Autoscale.md",
-    "azure/Azure App Service/Azure App Service Authentication and Authorization.md",
-    "azure/Azure App Service/Azure App Service.md",
-    "General.md",
-    "azure/Azure Authentication/Stored Access Policies.md",
-    "azure/Azure Authentication/Shared Access Signatures.md",
-    "azure/Azure Authentication/Service Principal.md",
-    "azure/Azure Authentication/Microsoft Identity Platform.md",
     "templates",
     "general/shared-responsibility-model.svg",
     "general/risk-matrix.png",
@@ -222,7 +233,7 @@
     "azure/azure-storage-account",
     "azure/azure-functions",
     "azure/azure-entra",
-    "azure/azure-cosmos-db",
+    "azure/Azure CosmosDB",
     "azure/Azure Container",
     "azure/Azure Authentication",
     "azure/Azure App Service",

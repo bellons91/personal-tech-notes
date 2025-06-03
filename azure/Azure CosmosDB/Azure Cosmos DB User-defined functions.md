@@ -1,8 +1,12 @@
 ---
-tags: azure, cloud, az-204, azure-cosmos-db
+tags:
+  - azure
+  - cloud
+  - az-204
+  - azure-cosmos-db
+  - database
+  - user-defined-functions
 ---
-
-# Azure Cosmos DB User-defined functions
 
 User-defined function can be used inside a query.
 
