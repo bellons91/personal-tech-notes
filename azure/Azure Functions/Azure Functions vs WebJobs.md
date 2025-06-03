@@ -1,10 +1,15 @@
 ---
-tags: azure, cloud, az-204, serverless, azure-functions, azure-logic-apps
+tags:
+  - azure
+  - cloud
+  - az-204
+  - serverless
+  - azure-functions
+  - azure-logic-apps
+  - webjobs
 ---
 
-# Azure Functions vs WebJobs
-
-Both [[azure-functions]] and [[Azure App Service WebJobs]] are built on top of [[Azure App Service]].
+Both [[Azure Functions]] and [[Azure App Service WebJobs]] are built on top of [[Azure App Service]].
 
 They both support integrations with [[application-insights]].
 

@@ -2,18 +2,16 @@
 tags: azure, cloud, az-204, serverless, azure-functions, azure-durable-functions
 ---
 
-# Azure Durable Functions
-
 Durable Functions is an extension of Azure Functions that lets you **write stateful functions in a serverless compute environment**.
 
-The extension lets you define stateful workflows by writing **orchestrator functions** and **stateful entities** by writing entity functions using the Azure Functions programming model.
+The extension lets you define stateful workflows by writing  #orchestrator functions and **stateful entities** by writing entity functions using the Azure Functions programming model.
 
 Behind the scenes, the extension manages state, checkpoints, and restarts for you, allowing you to focus on your business logic.
 
 The primary use case for Durable Functions is simplifying complex, stateful coordination requirements in serverless applications. Examples of typical application patterns that can benefit from Durable Functions are:
 
 - Function chaining
-- Fan-out/fan-in
+- [[Fan-out/fan-in]]
 - Async HTTP APIs
 - Monitoring
 - Human interaction
@@ -23,7 +21,7 @@ The primary use case for Durable Functions is simplifying complex, stateful coor
 
 The output of a function can be used as input for the next function.
 
-![Azure Durable Function - Function Chaining](./az-dur-func-function-chaining.png)
+![Azure Durable Function - Function Chaining](az-dur-func-function-chaining.png)
 
 In the following snippet, F1 to F4 are the functions called by this orchestrator function.
 
@@ -52,7 +50,7 @@ It's important to always use the `context` variable to ensure that the underneat
 
 It's when you execute multiple functions in parallel and then aggregate the result.
 
-![Azure Durable Function - Fan out/fan in](./az-dur-func-fan-in-fan-out.png)
+![Azure Durable Function - Fan out/fan in](az-dur-func-fan-in-fan-out.png)
 
 ```cs
 [Function("FanOutFanIn")]
@@ -81,7 +79,7 @@ public static async Task Run(
 
 The async HTTP API pattern addresses the problem of coordinating the state of long-running operations with external clients.
 
-![Azure Durable Function - Async HTTP APIs](./az-dur-func-async-http-api.png)
+![Azure Durable Function - Async HTTP APIs](az-dur-func-async-http-api.png)
 
 It manages long-running executions by providing a built-in endpoint that must be called to check if the remote operation has finished.
 

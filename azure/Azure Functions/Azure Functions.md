@@ -1,16 +1,13 @@
 ---
 tags: azure, cloud, az-900 serverless, paas, az-204, azure-functions
 ---
-
-# Azure Functions
-
-Azure Functions is an **event-driven**, **serverless** compute option that doesn't require maintaining virtual machines or containers.
+Azure Functions is an #event-driven, #serverless compute option that doesn't require maintaining virtual machines or containers.
 
 With Azure Functions, an event wakes the function, alleviating the need to keep resources provisioned when there are no events.
 
 Since the function runs only after an event is triggered and then all the resources are deallocated, you only **pay for the CPU time** used by the function.
 
-Azure Functions supports **triggers**, which are ways to start the execution of your code, and **bindings**, which are ways to simplify coding for input and output data.
+Azure Functions supports #triggers, which are ways to start the execution of your code, and **bindings**, which are ways to simplify coding for input and output data.
 
 ## Use cases
 
@@ -53,7 +50,7 @@ The **Scale Controller** is the component that monitors the rate of events and d
 
 When there are no functions running within a function app, the number of instances can scale to zero. Then, the first request has a bit of latency because the function app must scale to one. This latency is called **cold start**.
 
-![Scale Controller](azure-functions/azure-functions-scale-controller.png)
+![Scale Controller](azure-functions-scale-controller.png)
 
 Even though a function app can scale out to a max of 200 instances, a single instance can process more requests at a time, so there isn't a hard limit on the number of concurrent executions.
 

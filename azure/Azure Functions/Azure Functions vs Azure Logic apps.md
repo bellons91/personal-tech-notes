@@ -2,13 +2,11 @@
 tags: azure, cloud, az-204, serverless, azure-functions, azure-logic-apps
 ---
 
-# Azure Functions vs Azure Logic apps
-
-Both [[azure-functions]] and [[azure-logic-apps]] are Azure Services that enable serverless workloads.
+Both [[Azure Functions]] and [[azure-logic-apps]] are Azure Services that enable serverless workloads.
 
 Azure Functions is a serverless **compute service**, whereas Azure Logic Apps is a serverless **workflow integration platform**.
 
-Both can create complex **orchestrations**. For Azure Functions you develop orchestrations by writing code that use the [[azure-durable-functions]] extension.
+Both can create complex **orchestrations**. For Azure Functions you develop orchestrations by writing code that use the [[Azure Durable Functions]] extension.
 
 For Logic Apps, you use the GUI or edit the configuration files to orchestrate Actions.
 
