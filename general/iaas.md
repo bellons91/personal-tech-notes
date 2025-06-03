@@ -22,16 +22,16 @@ In the [[shared-responsibility-model]], IaaS places the largest share of respons
 
 ## List of Azure services
 
-- [[azure-virtual-desktop]]
-- [[azure-virtual-machines]]
-- [[azure-virtual-machines#Virtual Machines Scale Sets]]
-- [[azure-expressroute]]
+- [[Azure Virtual Desktop]]
+- [[Azure Virtual Machines]]
+- [[Azure Virtual Machines#Virtual Machines Scale Sets]]
+- [[Azure ExpressRoute]]
 - Azure firewall
 - Load Balancer
 - Network Watcher
 - Private link
 - Traffic Manager
-- [[azure-virtual-network]]
-- [[azure-virtual-network#VPN gateways]]
+- [[Azure Virtual Network]]
+- [[Azure Virtual Network#VPN gateways]]
 - [[azure-storage-account-scripts]]
 - Managed Disks

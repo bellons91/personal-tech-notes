@@ -10,7 +10,7 @@ tags:
   - paas
 ---
 
-Azure Container Apps enables you to run microservices and containerized applications on a serverless platform that runs on top of [[azure-kubernetes-service]].
+Azure Container Apps enables you to run microservices and containerized applications on a serverless platform that runs on top of [[Azure Kubernetes Service]].
 
 Azure Container Apps doesn't provide direct access to the underlying #Kubernetes APIs. If you require access to the [[Kubernetes]] APIs and control plane, you should use AKS.
 
@@ -60,7 +60,7 @@ Individual container apps are deployed to a **single Container Apps environment*
 
 Container Apps in the same environment are deployed **in the same virtual network** and **write logs to the same [[Log Analytics]] workspace**.
 
-You may provide an existing [[azure-virtual-network]] when you create an environment.
+You may provide an existing [[Azure Virtual Network]] when you create an environment.
 
 Reasons to use the same environment:
 
@@ -83,7 +83,7 @@ Azure Container Apps supports **any Linux-based x86-64 (linux/amd64)** container
 
 If a container crashes it automatically restarts.
 
-When using [[azure-resource-manager]] templates, you can define the info about the containers in the `containers` node of the `properties.template` section.
+When using [[Azure Resource Manager]] templates, you can define the info about the containers in the `containers` node of the `properties.template` section.
 
 ```json
 "containers": [

@@ -21,7 +21,7 @@ Microsoft Identity Platform is made of different components:
 - Application management portal;
 - Application configuration via APIs and PowerShell.
 
-You can use it to define #passwordless authentication and [[conditional-access]].
+You can use it to define #passwordless authentication and [[Conditional Access]].
 
 Any web-hosted resource that integrates with the Microsoft identity platform has a resource identifier, or application ID URI. For example:
 

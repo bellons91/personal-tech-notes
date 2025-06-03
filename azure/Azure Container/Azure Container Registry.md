@@ -13,7 +13,7 @@ ACR is a registry for [[Docker Containers]].
 
 You can use ACR to manage containerized applications across clusters of hosts, like [[Kubernetes]], [[DC/OS]], and [[Docker Swarm]].
 
-There are Azure services that pull the application content from ACR, such as [[azure-kubernetes-service]], [[Azure App Service]], [[Service Fabric]], and others.
+There are Azure services that pull the application content from ACR, such as [[Azure Kubernetes Service]], [[Azure App Service]], [[Service Fabric]], and others.
 
 Developers can push [[Docker Images]] to ACR from a CI pipeline.
 

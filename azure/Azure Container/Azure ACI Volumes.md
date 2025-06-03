@@ -59,7 +59,7 @@ azureFile:
   storageAccountKey: <Storage account key>
 ```
 
-You can also mount **multiple volumes**: when using [[arm-templates]], you first need to define the volumes in an array.
+You can also mount **multiple volumes**: when using [[ARM Templates]], you first need to define the volumes in an array.
 
 ```json
 "volumes": [{

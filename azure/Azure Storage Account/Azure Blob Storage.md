@@ -51,7 +51,7 @@ All data (including metadata) written to Azure Storage is automatically encrypte
 
 All Azure Storage resources are encrypted, including blobs, disks, files, queues, and tables. All object metadata is also encrypted. **Storage accounts are encrypted regardless of their performance tier** (standard or premium).
 
-Also, [[azure-rbac]] is available for both data and management operations, like using #RBAC roles to manage access to resources and configurations, and using Microsoft Entra to handle access to blob and queue data operations.
+Also, [[Azure Role-Based Access Control]] is available for both data and management operations, like using #RBAC roles to manage access to resources and configurations, and using Microsoft Entra to handle access to blob and queue data operations.
 
 You can **assign RBAC roles scoped to a subscription, resource group, storage account, or an individual container or queue** to a security principal or a managed identity for Azure resources.
 

@@ -4,7 +4,7 @@ tags: azure, cloud, az-900, azure-cli
 
 # Operations on VM with Cloud CLI
 
-This page lists some scripts useful for operating on [[azure-virtual-machines]].
+This page lists some scripts useful for operating on [[Azure Virtual Machines]].
 
 ## How to create a VM
 

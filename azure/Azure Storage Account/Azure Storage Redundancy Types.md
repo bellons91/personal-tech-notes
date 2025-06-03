@@ -34,7 +34,7 @@ Suppose a disaster such as fire or flooding occurs within the data center. In th
 
 ### Zone-Redundant Storage (ZRS)
 
-#ZRS replicates your Azure Storage data **synchronously** across **three [[azure-availability-zones]] in the primary region**.
+#ZRS replicates your Azure Storage data **synchronously** across **three [[Azure Availability Zones]] in the primary region**.
 
 ZRS provides at least **12 nines of durability** (99.9999999999%).
 
@@ -53,7 +53,7 @@ Good usage of ZRS:
 
 If you need even more durability and data availability, you can replicate your data across a secondary region.
 
-When creating a storage account, you must select the primary region. The paired secondary region is assigned automatically, based on [[azure-region-pairs]], and cannot be changed.
+When creating a storage account, you must select the primary region. The paired secondary region is assigned automatically, based on [[Azure Region Pairs]], and cannot be changed.
 
 By default, **data in the secondary region is only available for read or write access if there's a failover to the secondary region**. If the primary region becomes unavailable, you can choose to fail over to the secondary region. After the failover has been completed, the secondary region becomes the primary region, and you can again read and write data.
 

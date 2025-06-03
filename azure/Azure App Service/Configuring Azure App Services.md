@@ -28,7 +28,7 @@ Examples are:
 - **Platform settings**: used to configure the hosting platform.
   - **Bitness**: 32- or 64-bit;
   - **WebSocket protocol**: useful for [[SignalR]];
-  - **[[always-on]]**: disabled by default;
+  - **[[Always On]]**: disabled by default;
   - **Managed pipeline version**: The IIS pipeline mode. Set it to _Classic_ if you have a legacy app that requires an older version of IIS.
   - **HTTP version**: Set to 2.0 to enable support for HTTPS/2 protocol.
   - **[[arr-affinity]]**: In a multi-instance deployment, ensure that the client is routed to the same instance for the life of the session. You can set this option to _Off_ for stateless applications.

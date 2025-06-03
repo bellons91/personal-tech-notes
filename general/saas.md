@@ -18,8 +18,8 @@ Clients are responsible for:
 
 - Azure DevOps
 - Microsof Sentinel
-- [[azure-arc]]
-- [[azure-advisor]]
+- [[Azure Arc]]
+- [[Azure Advisor]]
 - Azure Backup
-- [[azure-cloud-shell]]
+- [[Azure Cloud Shell]]
 -

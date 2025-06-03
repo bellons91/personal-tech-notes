@@ -15,10 +15,10 @@ The cloud provider maintains:
 
 ## List of Azure services
 
-- [[microsoft-purview]]
+- [[Microsoft Purview]]
 - Event Hub
 - [[Azure App Service]]
 - [[Azure Container Apps]]
-- [[azure-kubernetes-service]]
+- [[Azure Kubernetes Service]]
 - [[Azure Entra]]
 - [[Azure Entra Domain Services]]

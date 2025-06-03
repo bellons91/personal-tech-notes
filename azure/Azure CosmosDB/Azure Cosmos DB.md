@@ -4,7 +4,7 @@ tags: azure, cloud, az-204, azure-cosmos-db
 
 Azure Cosmos DB is a **fully managed #NoSQL database** designed to provide low latency, elastic scalability of throughput, well-defined semantics for data consistency, and high availability.
 
-You can configure your databases to be globally distributed and available in any of the [[azure-region]]. To lower the latency, place the data close to where your users are.
+You can configure your databases to be globally distributed and available in any of the [[Azure Regions]]. To lower the latency, place the data close to where your users are.
 
 It uses **multi-master replication protocol**, meaning that all regions support both reads and writes. Multi-master replication protocol provides some functionalities:
 

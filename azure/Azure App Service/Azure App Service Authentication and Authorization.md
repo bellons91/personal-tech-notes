@@ -28,7 +28,7 @@ When you enable authentication and authorization with one of these providers, it
 - Manages the authenticated session
 - **Injects identity information into HTTP request headers**
 
-The authentication module is independent from the application, and it can be configured using [[azure-resource-manager]] or a configuration file.
+The authentication module is independent from the application, and it can be configured using [[Azure Resource Manager]] or a configuration file.
 
 Note that **in Linux and containers the authentication and authorization module runs in a separate container**, isolated from your application code. Because it does not run in-process, no direct integration with specific language frameworks is possible.
 

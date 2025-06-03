@@ -8,7 +8,7 @@ With ACR Tasks, to automatically rebuild application images when their base imag
 
 You can use ACR Tasks to streamline building, testing, pushing, and deploying images in Azure.
 
-It provides cloud-based container image building for platforms including Linux, Windows, and [[azure-resource-manager]], and can automate OS and framework patching for your Docker containers.
+It provides cloud-based container image building for platforms including Linux, Windows, and [[Azure Resource Manager]], and can automate OS and framework patching for your Docker containers.
 
 Each ACR Task has an **associated source code context** - the location of a set of source files used to build a container image or other artifact. Example contexts include a Git repository or a local filesystem.
 

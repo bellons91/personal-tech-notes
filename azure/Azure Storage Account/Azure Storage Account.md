@@ -13,7 +13,7 @@ Cloud storage solution, **IaaS**. It's an entry point to access data over HTTP o
 
 Using storage accounts, data is secure, highly available, durable, and scalable.
 
-You can even use Azure Storage publish static content (see [[static-website-hosting-with-azure-storage]]).
+You can even use Azure Storage publish static content (see [[Static website hosting with Azure Storage]]).
 
 You can use it to create a Virtual Machine with consistent disks and storage.
 

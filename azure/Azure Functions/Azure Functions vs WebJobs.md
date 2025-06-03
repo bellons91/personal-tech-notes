@@ -11,7 +11,7 @@ tags:
 
 Both [[Azure Functions]] and [[Azure App Service WebJobs]] are built on top of [[Azure App Service]].
 
-They both support integrations with [[application-insights]].
+They both support integrations with [[Application Insights]].
 
 **Azure Functions is built on the WebJobs SDK**, so it shares many of the same event triggers and connections to other Azure services.
 

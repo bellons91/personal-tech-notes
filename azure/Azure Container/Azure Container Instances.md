@@ -21,9 +21,9 @@ You can upload your single containers and have them run in the cloud in a single
 
 Concepts like scaling, load balancing, and certificates are _not_ provided with ACI containers. For example, to scale to five container instances, you create five distinct container instances.
 
-If you need a more complex orchestrators, you should use [[azure-kubernetes-service]].
+If you need a more complex orchestrators, you should use [[Azure Kubernetes Service]].
 
-You can deploy ACI by using [[arm-templates]] (best suited for complex scenarios) or a YAML file (when you just have one container instance).
+You can deploy ACI by using [[ARM Templates]] (best suited for complex scenarios) or a YAML file (when you just have one container instance).
 
 ## Benefits of ACI
 

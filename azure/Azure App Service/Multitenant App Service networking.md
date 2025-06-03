@@ -28,7 +28,7 @@ Since you cannot connect directly to the App Service, you have to use the functi
 
 - Hybrid connections
 - Gateway-required virtual network integration
-- [[azure-virtual-network]]
+- [[Azure Virtual Network]]
 
 ## Outbound addresses
 
