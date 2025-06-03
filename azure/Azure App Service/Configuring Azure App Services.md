@@ -55,7 +55,7 @@ You can configure virtual applications and directories by specifying each virtua
 
 Containerized apps include **all Linux apps and also the Windows and Linux custom containers** running on App Service.
 
-You can use a storage account as a storage mount. The mount can be a [[azure-file-storage]] or [[azure-blob-storage]].
+You can use a storage account as a storage mount. The mount can be a [[Azure Files]] or [[Azure Blob Storage]].
 
 ## Diagnostic logging
 

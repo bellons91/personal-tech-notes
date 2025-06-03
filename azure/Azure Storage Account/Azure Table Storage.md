@@ -1,12 +1,18 @@
 ---
-tags: azure, cloud, az-900, az-204, storage
+tags:
+  - azure
+  - cloud
+  - az-900
+  - az-204
+  - storage
+  - table
+  - azure-storage-account
+  - database
 ---
-
-# Azure Table Storage
 
 Azure Tables can be used to store large amounts of **structured data**.
 
-Azure tables are a **NoSQL datastore** that accepts authenticated calls from inside and outside the Azure cloud.
+Azure tables are a #NoSQL datastore that accepts authenticated calls from inside and outside the Azure cloud.
 
 Ideal for structured, non-relational data.
 

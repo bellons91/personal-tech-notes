@@ -1,8 +1,13 @@
 ---
-tags: azure, cloud, az-900, az-204, storage, azure-blob-storage
+tags:
+  - azure
+  - cloud
+  - az-900
+  - az-204
+  - storage
+  - azure-blob-storage
+  - azure-storage-account
 ---
-
-# Azure Blob Storage
 
 Azure Blob Storage is a generic storage solution. You can store **text and binary data** in an unstructured format.
 
@@ -22,9 +27,9 @@ Objects can be accessed via HTTP or HTTPS, given that every object can be refere
 
 This service provides a list of endpoints available at https://{storage-account-name}.blob.core.windows.net
 
-Each Storage Account contains one or more [[azure-blob-container]], and each Blob Container contains
+Each Storage Account contains one or more [[Azure Blob Container]], and each Blob Container contains
 
-Depending on the usage, you can use a different [[azure-blob-storage-tiers]].
+Depending on the usage, you can use a different [[Blob Storage Tiers]].
 
 You can enable **[[versioning for blobs]]** (keep all the versions or remove versions older than X days). For blobs you can store each single version (each representing an update), an one or more **snapshots**, that are "named" versions for easier retrieval.
 
@@ -34,19 +39,19 @@ You can create [[immutable blobs]] using predefined rules or defining custom pol
 
 ## Types of Blobs
 
-The storage service offers three types of blobs: [[azure-blob-storage-block-blobs]], [[azure-blob-storage-append-blobs]], and [[azure-blob-storage-page-blobs]]. You specify the blob type when you create the blob. Once the blob has been created, its type cannot be changed.
+The storage service offers three types of blobs: [[Block Blobs]], [[Append Blobs]], and [[Page Blobs]]. You specify the blob type when you create the blob. Once the blob has been created, its type cannot be changed.
 
-All blobs reflect committed changes immediately. Each version of the blob has a unique tag, called an **ETag**, that you can use with access conditions to assure you only change a specific instance of the blob.
+All blobs reflect committed changes immediately. Each version of the blob has a unique tag, called an #ETag, that you can use with access conditions to assure you only change a specific instance of the blob.
 
 Any blob can be **leased for exclusive write access**. When a blob is leased, only calls that include the current lease ID can modify the blob or (for block blobs) its blocks.
 
 ## Security
 
-All data (including metadata) written to Azure Storage is **automatically encrypted using Storage Service Encryption (SSE)**. Data in Azure Storage is encrypted and decrypted transparently using 256-bit AES encryption. Azure Storage encryption is enabled for all new and existing storage accounts and **can't be disabled**.
+All data (including metadata) written to Azure Storage is automatically encrypted using Storage Service Encryption ( #SSE ). Data in Azure Storage is encrypted and decrypted transparently using 256-bit [[AES encryption]]. Azure Storage encryption is enabled for all new and existing storage accounts and **can't be disabled**.
 
 All Azure Storage resources are encrypted, including blobs, disks, files, queues, and tables. All object metadata is also encrypted. **Storage accounts are encrypted regardless of their performance tier** (standard or premium).
 
-Also, [[azure-rbac]] is available for both data and management operations, like using RBAC roles to manage access to resources and configurations, and using Microsoft Entra to handle access to blob and queue data operations.
+Also, [[azure-rbac]] is available for both data and management operations, like using #RBAC roles to manage access to resources and configurations, and using Microsoft Entra to handle access to blob and queue data operations.
 
 You can **assign RBAC roles scoped to a subscription, resource group, storage account, or an individual container or queue** to a security principal or a managed identity for Azure resources.
 
@@ -73,7 +78,7 @@ Encryption relies on keys. You have three options to handle keys:
 
 You can use the CLI, .NET SDKs, or REST APIs to work with Blob Storage.
 
-You can define properties (system-wide) and blob-specific [[azure-blob-metadata]].
+You can define properties (system-wide) and blob-specific [[Azure Block Blobs metadata]].
 
 For REST APIs,the metadata consists of name/value pairs. The total size of all metadata pairs can be up to 8KB in size. Metadata are stored as HTTP headers: you can retrieve them by using both the GET and the HEAD HTTP verb.
 

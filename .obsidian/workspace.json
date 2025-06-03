@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "azure/Azure Functions/Azure Functions vs WebJobs.md",
+                "file": "azure/Azure Storage Account/Azure Table Storage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Azure Functions vs WebJobs"
+              "title": "Azure Table Storage"
             }
           }
         ]
@@ -190,8 +190,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "57a0605ccb6ff5a8",
+  "active": "ea1d09dcc0d5ca07",
   "lastOpenFiles": [
+    "azure/Azure Storage Account/Azure Storage Redundancy Types.md",
+    "azure/Azure Storage Account/Azure Storage Account.md",
+    "azure/Azure Storage Account/Azure Queue Storage.md",
+    "azure/Azure Storage Account/Azure Files.md",
+    "azure/Azure Storage Account/Append Blobs.md",
+    "azure/Azure Storage Account/Azure Blob Container.md",
+    "azure/Azure Storage Account/Azure Blob Storage.md",
+    "azure/Azure Storage Account/Azure Block Blobs metadata.md",
+    "azure/Azure Storage Account/Azure Blob Storage lifecycle.md",
+    "azure/Azure Storage Account/Blob Storage Tiers.md",
+    "azure/Azure Storage Account/Page Blobs.md",
+    "azure/Azure Storage Account/Block Blobs.md",
+    "azure/Azure Functions/Azure Functions vs WebJobs.md",
     "azure/Azure Functions/Azure Functions vs Azure Logic apps.md",
     "azure/Azure Functions/Azure Functions.md",
     "azure/Azure Functions/Azure Durable Functions.md",
@@ -205,19 +218,6 @@
     "azure/Azure CosmosDB/Azure Cosmos DB Stored Procedures.md",
     "azure/Azure CosmosDB/Azure CosmosDB Request Units.md",
     "azure/Azure CosmosDB/Azure CosmosDB Item.md",
-    "azure/Azure CosmosDB/Azure Cosmos DB Database.md",
-    "azure/Azure CosmosDB/Azure CosmosDB Container.md",
-    "azure/Azure CosmosDB/Azure CosmosDB Consistency levels.md",
-    "azure/Azure CosmosDB/Azure Cosmos DB Account.md",
-    "azure/Azure CosmosDB/Azure Cosmos DB.md",
-    "azure/Azure App Service/Azure App Service.md",
-    "azure/Azure Container/Azure Container Registry.md",
-    "azure/azure-container/docker-swarm.md",
-    "azure/Azure Container/Azure Container Instances.md",
-    "general/paas.md",
-    "azure/Azure Container/Azure Container Apps with Dapr.md",
-    "azure/Azure Container/Azure Container Apps Authentication.md",
-    "azure/Azure Container/Azure Container Instances Container Group.md",
     "azure/Azure Container/authentication-middleware.png",
     "azure/Azure App Service/app-service-plans.png",
     "templates",
@@ -226,11 +226,11 @@
     "general/defense-in-depth-layers.png",
     "general/dapr-apis.png",
     "general",
-    "azure/azure-storage-account/zrs.png",
-    "azure/azure-storage-account/lrs.png",
-    "azure/azure-storage-account/gzrs.png",
-    "azure/azure-storage-account/grs.png",
-    "azure/azure-storage-account",
+    "azure/Azure Storage Account/zrs.png",
+    "azure/Azure Storage Account/lrs.png",
+    "azure/Azure Storage Account/gzrs.png",
+    "azure/Azure Storage Account/grs.png",
+    "azure/Azure Storage Account",
     "azure/Azure Functions",
     "azure/Azure Entra",
     "azure/Azure CosmosDB",

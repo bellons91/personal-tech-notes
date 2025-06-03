@@ -1,8 +1,12 @@
 ---
-tags: azure, cloud, az-204, storage, azure-blob-storage
+tags:
+  - azure
+  - cloud
+  - az-204
+  - storage
+  - azure-blob-storage
+  - azure-storage-account
 ---
-
-# Azure Block Blobs metadata
 
 For each Block Blob you can define key-value pairs as Metadata.
 

@@ -1,12 +1,16 @@
 ---
-tags: azure, cloud, az-900, storage
+tags:
+  - azure
+  - cloud
+  - az-900
+  - storage
+  - azure-storage-account
+  - redundancy
 ---
-
-# Azure Storage Redundancy Types
 
 Azure Storage always stores **multiple copies of your data** to protect it from planned and unplanned events.
 
-When deciding the best redundancy option for a speciAfic scenario, you must consider costs and availability.
+When deciding the best redundancy option for a specific scenario, you must consider costs and availability.
 
 Data in an Azure Storage account is **always replicated three times** in the primary region.
 
@@ -18,7 +22,7 @@ You then have only the primary region.
 
 ### Locally Redundant Storage (LRS)
 
-LRS replicates your data three times **within a single data center in the primary region**.
+#LRS replicates your data three times **within a single data center in the primary region**.
 
 LRS provides at least **11 nines of durability** (99.999999999%) of objects over a given year.
 
@@ -30,7 +34,7 @@ Suppose a disaster such as fire or flooding occurs within the data center. In th
 
 ### Zone-Redundant Storage (ZRS)
 
-ZRS replicates your Azure Storage data **synchronously** across **three [[azure-availability-zones]] in the primary region**.
+#ZRS replicates your Azure Storage data **synchronously** across **three [[azure-availability-zones]] in the primary region**.
 
 ZRS provides at least **12 nines of durability** (99.9999999999%).
 
@@ -57,7 +61,7 @@ By default, **data in the secondary region is only available for read or write a
 
 ### Geo-Redundant Storage (GRS)
 
-GRS copies data **synchronously** three times using LRS (so, a single location within the primary region) and then replicates the data **asynchronously** to a single location within the secondary region.
+#GRS copies data **synchronously** three times using LRS (so, a single location within the primary region) and then replicates the data **asynchronously** to a single location within the secondary region.
 
 GRS provides at least **16 nines of durability** of objects over a given year.
 
@@ -67,7 +71,7 @@ You cannot read data from the secondary region unless a failover operation is pe
 
 ### Geo-Zone-Redundant Storage (GZRS)
 
-GZRS copies data in 3 different availability zones and then replicates data to a secondary region using LRS.
+#GZRS copies data in 3 different availability zones and then replicates data to a secondary region using LRS.
 
 GZRS provides at least **16 nines of durability** of objects over a given year.
 
@@ -77,12 +81,12 @@ You cannot read data from the secondary region, unless a failover operation is p
 
 ### Read-Access Geo-Redundant Storage (RA-GRS)
 
-Similar to GRS, but you can also read data from the secondary region.
+#RA-GRS is similar to #GRS, but you can also read data from the secondary region.
 
 Data might not be immediately updated due to RPO.
 
 ### Read-Access Geo-Zone-Redundant Storage (RA-GZRS)
 
-Similar to GZRS, but you can also read data from the secondary region.
+#RA-GZRS is similar to GZRS, but you can also read data from the secondary region.
 
-Data might not be immediately updated due to RPO.
+Data might not be immediately updated due to #RPO.

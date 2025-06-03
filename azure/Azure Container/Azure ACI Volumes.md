@@ -2,7 +2,7 @@
 tags: az-204, azure, containers, aci, docker, az-900, paas
 ---
 
-Azure Container Instances can mount an Azure file share created with [[azure-file-storage]].
+Azure Container Instances can mount an Azure file share created with [[Azure Files]].
 
 - You can only mount Azure Files shares to **Linux** containers.
 - Azure file share volume mount requires the Linux container run as _root_.

@@ -2,9 +2,7 @@
 tags: azure, cloud, az-204, storage, azure-blob-storage
 ---
 
-# Blob Storage Tiers
-
-To manage [[azure-blob-storage]] costs better, you have to pick the right storage tier, depending on the expected usage.
+To manage [[Azure Blob Storage]] costs better, you have to pick the right storage tier, depending on the expected usage.
 
 The following considerations apply to the different access tiers:
 
@@ -12,7 +10,7 @@ The following considerations apply to the different access tiers:
 - **Only the hot and cool access tiers can be set at the account level**. The archive access tier can only be set at the blob level.
 - Data in the cool access tier has slightly lower availability, but still has high durability, retrieval latency, and throughput characteristics similar to hot data.
 - **Data in the archive access tier is stored offline**. The archive tier offers the lowest storage costs but also the highest access costs and latency.
-- **The hot and cool tiers support all [[azure-storage-redundancy-types]] options**. The archive tier supports only LRS, GRS, and RA-GRS.
+- **The hot and cool tiers support all [[Azure Storage Redundancy Types]] options**. The archive tier supports only LRS, GRS, and RA-GRS.
 - **Data storage limits are set at the account level and not per access tier**. You can choose to use all of your limit in one tier or across all three tiers.
 
 ## Hot tier
@@ -40,7 +38,7 @@ Some considerations:
 
 - can be set at account level;
 - can be set at blob level, during or after the upload;
-- has lower SLA for availability, but higher SLA for durability, latency, and thoughput.
+- has lower #SLA for availability, but higher SLA for durability, latency, and thoughput.
 
 ## Cold tier
 
@@ -62,7 +60,7 @@ It's good for data that does not change for at least 180 days.
 
 Data is stored offline to reduce costs, but you will have higher costs to rehydrate and access data.
 
-The archive tier is available only for individual [[azure-blob-storage-block-blobs]]. This tier is optimized for data that can tolerate several hours of retrieval latency.
+The archive tier is available only for individual [[Block Blobs]]. This tier is optimized for data that can tolerate several hours of retrieval latency.
 
 ### Rehydration of archived blobs
 
@@ -84,4 +82,4 @@ Since you cannot copy a blob to the same location maintaining the same name, whe
 
 Copying an archived blob to an online destination tier is supported within the same storage account only. You can't copy an archived blob to a destination blob that is also in the archive tier.
 
-An alternative to copying the blob is to change it's access tier, using the Set Blob Tier command. However, this operation does not change the last modified time, so a [[azure-blob-storage-lifecycle]] policy may move it back to the Archive tier.
+An alternative to copying the blob is to change it's access tier, using the Set Blob Tier command. However, this operation does not change the last modified time, so a [[Azure Blob Storage lifecycle]] policy may move it back to the Archive tier.

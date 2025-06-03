@@ -1,12 +1,16 @@
 ---
-tags: azure, cloud, az-204, storage, azure-blob-storage
+tags:
+  - azure
+  - cloud
+  - az-204
+  - storage
+  - azure-blob-storage
+  - azure-storage-account
 ---
-
-# Azure Blob Storage lifecycle
 
 Early in the lifecycle, people access some data often. But the need for access drops drastically as the data ages. Some data stays idle in the cloud and is rarely accessed once stored. Some data expires days or months after creation, while other data sets are actively read and modified throughout their lifetimes.
 
-Each blob "belongs" to a specific [[azure-blob-storage-tiers]].
+Each blob "belongs" to a specific [[Blob Storage Tiers]].
 
 However, you can define **lifecycle management policies** to handle the status of a blob. With these policies you can:
 
@@ -17,7 +21,7 @@ However, you can define **lifecycle management policies** to handle the status o
 
 By adjusting storage tiers in respect to the age of data, you can design the **least expensive storage options** for your needs. To achieve this transition, lifecycle management policy rules are available to move aging data to cooler tiers.
 
-❗Important note: **Data stored in a premium block blob storage account cannot be tiered to Hot, Cool, or Archive using Set Blob Tier or using Azure Blob Storage lifecycle management**. To move data, you must synchronously copy blobs from the block blob storage account to the Hot tier in a different account using the Put Block From URL API or a version of AzCopy that supports this API. The Put Block From URL API synchronously copies data on the server, meaning the call completes only once all the data is moved from the original server location to the destination location. ❗
+❗Important note: **Data stored in a premium block blob storage account cannot be tiered to Hot, Cool, or Archive using Set Blob Tier or using Azure Blob Storage lifecycle management**. To move data, you must synchronously copy blobs from the block blob storage account to the Hot tier in a different account using the Put Block From URL API or a version of #AzCopy that supports this API. The Put Block From URL API synchronously copies data on the server, meaning the call completes only once all the data is moved from the original server location to the destination location. ❗
 
 ## Lifecycle Management Policy
 

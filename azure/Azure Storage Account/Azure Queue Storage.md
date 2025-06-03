@@ -1,8 +1,13 @@
 ---
-tags: azure, cloud, az-900, az-204, storage
+tags:
+  - azure
+  - cloud
+  - az-900
+  - az-204
+  - storage
+  - azure-storage-account
+  - queue
 ---
-
-# Azure Queue Storage
 
 Its purpose is to store a large number of messages. Once stored, those messages can be accessed using HTTP or HTTPS (only under authentication) messages.
 
