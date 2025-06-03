@@ -1,8 +1,14 @@
 ---
-tags: azure, cloud, az-900, authentication, paas
+tags:
+  - azure
+  - cloud
+  - az-900
+  - authentication
+  - paas
+aliases:
+  - Active Directory
+  - Azure Active Entra
 ---
-
-# Azure Entra (aka Active Directory)
 
 For on-premises environments, **Active Entra runs on Windows Server** instances. It provides an identity and access management service that your organization manages.
 
@@ -13,13 +19,13 @@ When using Azure Entra, Microsoft can help protect you by **detecting suspicious
 Azure Entra provides several services:
 
 - **Authentication**: verify identity to access applications and resources. It also includes functionality such as self-service password reset, **multifactor authentication**, a custom list of banned passwords, and more.
-- **Single sign-on**: a single identity is tied to a user. As users change roles or leave an organization, having access modifications tied to that identity reduces the effort needed to change or disable accounts.
+- **[[Single sign-on]]**: a single identity is tied to a user. As users change roles or leave an organization, having access modifications tied to that identity reduces the effort needed to change or disable accounts.
 - **Application management**: you can manage your cloud and on-premises apps by using Azure Entra. Features like Application Proxy, SaaS apps, the My Apps portal, and single sign-on provide a better user experience.
 - **Device management**: Along with accounts for individual people, Azure Entra supports the registration of devices. Registration enables devices to be managed through tools like Microsoft Intune. It also allows for device-based **[[conditional-access]] policies** to restrict access attempts to only those coming from known devices, regardless of the requesting user account.
 
 If you have an on-prem Active Entra and want to synchronize the data with Azure Entra, you can use **Azure Entra Connect**. Data is synchronized in both ways so that you can use SSO and MFA on both systems.
 
-You can use domain services with [[azure-entra-domain-services]].
+You can use domain services with [[Azure Entra Domain Services]].
 
 Azure Entra can handle several types of authentication:
 
@@ -28,4 +34,4 @@ Azure Entra can handle several types of authentication:
 - passwordless authentication (eg, Windows Hello for Business)
 - [[fido2-authentication]]
 
-You can finally manage users from external sources by using [[azure-entra-external-identities]].
+You can finally manage users from external sources by using [[Azure Entra External Identities]].

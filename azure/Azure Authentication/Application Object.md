@@ -7,7 +7,7 @@ tags:
   - MicrosoftEntra
 ---
 
-Application objects describe the application to [[azure-entra|Microsoft Entra ID]] and can be considered the definition of the application, allowing the service to know how to issue tokens to the application based on its settings.
+Application objects describe the application to [[Azure Entra|Microsoft Entra ID]] and can be considered the definition of the application, allowing the service to know how to issue tokens to the application based on its settings.
 
 A Microsoft Entra application is defined by its one and only application object.
 

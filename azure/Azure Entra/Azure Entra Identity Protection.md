@@ -1,8 +1,11 @@
 ---
-tags: azure, cloud, az-900, security
+tags:
+  - azure
+  - cloud
+  - az-900
+  - security
+  - azure-entra
 ---
-
-# Azure Entra Identity Protection
 
 Azure Entra Identity Protection is a comprehensive solution that helps you protect your organization's identities and detect and respond to potential identity-related risks.
 

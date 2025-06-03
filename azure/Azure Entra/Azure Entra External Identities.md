@@ -1,8 +1,12 @@
 ---
-tags: azure, cloud, az-900, authentication
+tags:
+  - azure
+  - cloud
+  - az-900
+  - authentication
+  - sso
+  - azure-entra
 ---
-
-# Azure Entra External Identities
 
 Azure Entra External Identities is a service that allows you to interact with users outside your organization (therefore called _external identities_).
 

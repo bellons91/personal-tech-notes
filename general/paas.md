@@ -20,5 +20,5 @@ The cloud provider maintains:
 - [[Azure App Service]]
 - [[Azure Container Apps]]
 - [[azure-kubernetes-service]]
-- [[azure-entra]]
-- [[azure-entra-domain-services]]
+- [[Azure Entra]]
+- [[Azure Entra Domain Services]]

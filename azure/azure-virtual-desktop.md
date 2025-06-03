@@ -13,4 +13,4 @@ Advantages:
 - **security**: data is not stored on a local laptop, which can be stolen;
 - **permission management**: centralize roles and ACL;
 - **secure network**: all the [[azure-virtual-machines]] stored via Azure Virtual Desktop have secure outbond communication;
-- integration with [[azure-entra]] using MFA.
+- integration with [[Azure Entra]] using MFA.

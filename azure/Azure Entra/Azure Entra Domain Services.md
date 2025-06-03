@@ -1,10 +1,16 @@
 ---
-tags: azure, cloud, az-900, authentication, paas
+tags:
+  - azure
+  - cloud
+  - az-900
+  - authentication
+  - paas
+  - azure-entra
+aliases:
+  - Azure Entra DS
 ---
 
-# Azure Entra Domain Services
-
-Part of [[azure-entra]], Azure Entra DS is a service that provides [[managed domain]] services such as:
+Part of [[Azure Entra]], Azure Entra DS is a service that provides [[managed domain]] services such as:
 
 - domain join
 - group policy

@@ -13,7 +13,7 @@ It allows to use social accounts of Microsoft Identities to log in to your appli
 Microsoft Identity Platform is made of different components:
 
 - [[OAuth 2.0]] and [[OpenId Connect]] compliant authentication services, used to integrate several identity types, such as
-  - work or school accounts, provisioned though [[azure-entra]];
+  - work or school accounts, provisioned though [[Azure Entra]];
   - personal accounts
   - social logins, using [[azure-ad-b2c]]
 - Open-source libraries, such as [[Microsoft Authentication Library]], and other standard-compliant libraries;

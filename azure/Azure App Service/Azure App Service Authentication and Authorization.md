@@ -10,7 +10,7 @@ It’s built directly into the platform and **doesn’t require any particular l
 
 You can **integrate with multiple login providers**. For example:
 
-- [[azure-entra]]
+- [[Azure Entra]]
 - Facebook
 - Google
 - Twitter
