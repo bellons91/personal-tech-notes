@@ -1,8 +1,13 @@
 ---
-tags: az-204, azure, containers, acr, docker
+tags:
+  - az-204
+  - azure
+  - containers
+  - acr
+  - docker
+aliases:
+  - ACR
 ---
-
-# Azure Container Registry (ACR)
 
 ACR is a registry for [[Docker Containers]].
 
@@ -12,7 +17,7 @@ There are Azure services that pull the application content from ACR, such as [[a
 
 Developers can push [[Docker Images]] to ACR from a CI pipeline.
 
-You can use [[acr-tasks]] to automatically rebuild application images when their base images are updated. You can also automate image builds when there is a new code commit in the source Git repository.
+You can use [[ACR Tasks]] to automatically rebuild application images when their base images are updated. You can also automate image builds when there is a new code commit in the source Git repository.
 
 In Azure Container Registry you can also store [[Helm charts]].
 

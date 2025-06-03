@@ -2,9 +2,7 @@
 tags: az-204, azure, containers, acr, docker
 ---
 
-# ACR Tasks
-
-ACR Tasks is a suite of features within [[azure-container-registry]].
+ACR Tasks is a suite of features within [[Azure Container Registry]].
 
 With ACR Tasks, to automatically rebuild application images when their base images are updated. You can also automate image builds when there is a new code commit in the source Git repository.
 

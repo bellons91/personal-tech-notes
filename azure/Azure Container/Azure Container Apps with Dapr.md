@@ -1,8 +1,13 @@
 ---
-tags: az-204, az-900, azure, containers, azure-container-apps, dapr
+tags:
+  - az-204
+  - az-900
+  - azure
+  - containers
+  - azure-container-apps
+  - dapr
+  - sidecar
 ---
-
-# Azure Container Apps with Dapr
 
 As an alternative to deploying and managing the [[Dapr]] OSS project yourself, the Container Apps platform:
 
@@ -12,7 +17,7 @@ As an alternative to deploying and managing the [[Dapr]] OSS project yourself, t
 
 Once enabled (via CLI, Portal, or ARM), you can use Dapr to perform external operations.
 
-![Dapr integration](./dapr-integration.png)
+![Dapr integration](dapr-integration.png)
 
 Each component has a set of settings that express how stuff work together.
 

@@ -2,9 +2,8 @@
 tags: az-204, azure, containers, aci, docker, az-900, paas
 ---
 
-# Azure Container Instances Container Group
 
-It's the top-level resource in [[azure-container-instances]].
+It's the top-level resource in [[Azure Container Instances]].
 
 A container group is a collection of containers that get scheduled on the same host machine.
 
@@ -39,6 +38,6 @@ Because containers within the group share a port namespace, **port mapping isn't
 
 ## Storage
 
-You can **specify external volumes** to mount within a container group. You can **map those volumes into specific paths within the individual containers** in a group. See [[azure-aci-volumes]].
+You can **specify external volumes** to mount within a container group. You can **map those volumes into specific paths within the individual containers** in a group. See [[Azure ACI Volumes]].
 
 Supported volumes include Azure file share, Secret, Empty directory, Cloned git repo.

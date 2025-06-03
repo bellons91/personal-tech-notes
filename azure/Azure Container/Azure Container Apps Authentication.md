@@ -1,8 +1,12 @@
 ---
-tags: az-204, az-900, azure, containers, azure-container-apps
+tags:
+  - az-204
+  - az-900
+  - azure
+  - containers
+  - azure-container-apps
+  - authentication
 ---
-
-# Azure Container Apps Authentication
 
 Azure Container Apps provides **built-in authentication and authorization features** to secure your external ingress-enabled container app with minimal or no code.
 
@@ -15,11 +19,11 @@ This feature should only be used with HTTPS. Ensure `allowInsecure` is disabled 
 To restrict app access only to authenticated users, set its Restrict access setting to *Require authentication*.
 To authenticate but not restrict access, set its Restrict access setting to *Allow unauthenticated access*.
 
-You can use [[federated-identity]], in which a third-party identity provider manages the user identities and authentication flow. You can use several IdP, such as Microsoft, Facebook, GitHub and more.
+You can use [[federated identity]], in which a third-party identity provider manages the user identities and authentication flow. You can use several IdP, such as Microsoft, Facebook, GitHub and more.
 
-**The authentication component runs as a sidecar container** on each replica in your application. When enabled, every incoming HTTP request passes through the security layer before being handled by your application. The middleware manages the sessions and **inject the identity information into HTTP request headers**.
+**The authentication component runs as a #sidecar container** on each replica in your application. When enabled, every incoming HTTP request passes through the security layer before being handled by your application. The middleware manages the sessions and **inject the identity information into HTTP request headers**.
 
-![Authentication middleware container](./authentication-middleware.png)
+![Authentication middleware container](authentication-middleware.png)
 
 The authentication and authorization module runs in a separate container, isolated from your application code. As the security container doesn't run in-process, **no direct integration with specific language frameworks is possible**. However, relevant information your app needs is provided in request headers.
 

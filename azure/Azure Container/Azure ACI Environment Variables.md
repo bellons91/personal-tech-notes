@@ -2,8 +2,6 @@
 tags: az-204, azure, containers, aci, docker, az-900 containers, paas
 ---
 
-# Azure ACI Environment Variables
-
 Setting environment variables in your container instances allows you to provide dynamic configuration of the application or script run by the container.
 
 If you need to pass secrets as environment variables, Azure Container Instances supports **secure values for both Windows and Linux containers**.

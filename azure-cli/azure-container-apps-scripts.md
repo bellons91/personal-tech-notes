@@ -4,7 +4,7 @@ tags: azure, cloud, az-204, azure-cli, azure-container-apps, containers
 
 # Operations on Azure Container Apps with Cloud CLI
 
-This page lists some scripts useful for working with [[azure-container-apps]].
+This page lists some scripts useful for working with [[Azure Container Apps]].
 
 To use the CLI, you first have to install the extensions for running Container Apps commands:
 

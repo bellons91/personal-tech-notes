@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "azure/Azure App Service/Configuring Azure App Services.md",
+                "file": "azure/Azure Container/Azure Container Registry.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Configuring Azure App Services"
+              "title": "Azure Container Registry"
             }
           }
         ]
@@ -179,12 +179,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ea1d09dcc0d5ca07",
+  "active": "57a0605ccb6ff5a8",
   "lastOpenFiles": [
+    "azure/azure-container/docker-swarm.md",
+    "azure/Azure Container/Azure Container Registry.md",
+    "azure/Azure Container/Azure Container Instances.md",
+    "general/paas.md",
+    "azure/Azure Container/Azure Container Apps with Dapr.md",
+    "azure/Azure Container/Azure Container Apps Authentication.md",
+    "azure/Azure Container/Azure Container Instances Container Group.md",
+    "azure/Azure Container/Azure Container Apps.md",
+    "azure/Azure Container/Azure ACI Volumes.md",
+    "azure/Azure Container/Azure ACI Restart Policies.md",
+    "azure/Azure Container/Azure ACI Environment Variables.md",
+    "azure/Azure Container/ACR Tasks.md",
+    "azure/Azure Container/authentication-middleware.png",
+    "azure/Azure App Service/Configuring Azure App Services.md",
     "azure/Azure App Service/app-service-plans.png",
     "azure/Azure App Service/Azure App Service Plan.md",
     "azure/Azure App Service/Multitenant App Service networking.md",
-    "azure/Azure App Service/Configuring Azure App Services.md",
     "general/tls.md",
     "azure/Azure App Service/Azure App Services Deployment Slots.md",
     "azure/Azure App Service/Azure App Service on Linux.md",
@@ -196,18 +209,7 @@
     "azure/Azure Authentication/Shared Access Signatures.md",
     "azure/Azure Authentication/Service Principal.md",
     "azure/Azure Authentication/Microsoft Identity Platform.md",
-    "azure/Azure Authentication/Application Object.md",
-    "azure/Azure Authentication/Microsoft Entra tenant.md",
-    "azure/Azure Authentication/Microsoft Authentication Library.md",
-    "azure/Azure Authentication/Managed Identity.md",
-    "SSO.md",
-    "Untitled.md",
-    "templates/Note.md",
-    "how-to/how-to-add-azure-k8s-cluster-on-lens.md",
     "templates",
-    "fido2-authentication.md",
-    "general/zero-trust-security-model.md",
-    "general/zenmap.md",
     "general/shared-responsibility-model.svg",
     "general/risk-matrix.png",
     "general/defense-in-depth-layers.png",
@@ -217,12 +219,11 @@
     "azure/azure-storage-account/lrs.png",
     "azure/azure-storage-account/gzrs.png",
     "azure/azure-storage-account/grs.png",
-    "azure/azure-functions/azure-functions-scale-controller.png",
     "azure/azure-storage-account",
     "azure/azure-functions",
     "azure/azure-entra",
     "azure/azure-cosmos-db",
-    "azure/azure-container",
+    "azure/Azure Container",
     "azure/Azure Authentication",
     "azure/Azure App Service",
     "azure"

@@ -4,7 +4,7 @@ tags: azure, cloud, az-204, azure-cli, acr, containers
 
 # Operations on ACI with Cloud CLI
 
-This page lists some scripts useful for working with [[azure-container-instances]].
+This page lists some scripts useful for working with [[Azure Container Instances]].
 
 ## Create ACI Container group
 
@@ -172,7 +172,7 @@ az container create
   --dns-name-label contoso
 ```
 
-Create a container in a container group that **invokes a script upon start** using [[azure-aci-restart-policies]].
+Create a container in a container group that **invokes a script upon start** using [[Azure ACI Restart Policies]].
 
 ```bash
 az container create
@@ -193,7 +193,7 @@ az container create
   --restart-policy Never
 ```
 
-Create a container in a container group with [[azure-aci-environment-variables]].
+Create a container in a container group with [[Azure ACI Environment Variables]].
 
 ```bash
 az container create
@@ -203,7 +203,7 @@ az container create
   --environment-variables key1=value1 key2=value2
 ```
 
-Create a container in a container group using **container image from [[azure-container-registry]]**.
+Create a container in a container group using **container image from [[Azure Container Registry]]**.
 
 ```bash
 az container create
@@ -213,7 +213,7 @@ az container create
   --registry-password password
 ```
 
-Create a container in a container group that **mounts an Azure File share as [[azure-aci-volumes]]**.
+Create a container in a container group that **mounts an Azure File share as [[Azure ACI Volumes]]**.
 
 ```bash
 az container create

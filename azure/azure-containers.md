@@ -10,8 +10,8 @@ Containers are lighter weight than [[azure-virtual-machines]], and allow for eas
 
 There are several ways to use containers in Azure:
 
-![[azure-container-instances]]
+![[Azure Container Instances]]
 
-![[azure-container-apps]]
+![[Azure Container Apps]]
 
 ![[azure-kubernetes-service]]

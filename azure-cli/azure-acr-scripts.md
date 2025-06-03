@@ -4,7 +4,7 @@ tags: azure, cloud, az-204, azure-cli, acr, containers
 
 # Operations on ACR with Cloud CLI
 
-This page lists some scripts useful for working with [[azure-container-registry]].
+This page lists some scripts useful for working with [[Azure Container Registry]].
 
 ## Create ACR
 

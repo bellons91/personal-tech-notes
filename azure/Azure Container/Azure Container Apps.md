@@ -1,12 +1,18 @@
 ---
-tags: az-204, az-900, azure, containers, azure-container-apps, docker, k8s
+tags:
+  - az-204
+  - az-900
+  - azure
+  - containers
+  - azure-container-apps
+  - docker
+  - k8s
+  - paas
 ---
-
-# Azure Container Apps
 
 Azure Container Apps enables you to run microservices and containerized applications on a serverless platform that runs on top of [[azure-kubernetes-service]].
 
-Azure Container Apps doesn't provide direct access to the underlying Kubernetes APIs. If you require access to the [[Kubernetes]] APIs and control plane, you should use AKS.
+Azure Container Apps doesn't provide direct access to the underlying #Kubernetes APIs. If you require access to the [[Kubernetes]] APIs and control plane, you should use AKS.
 
 You don't have to manage containers manually.
 
@@ -25,19 +31,17 @@ With Azure Container Apps, you can:
 - **Split traffic** across multiple versions of an application for [[Blue/Green deployments]] and [[A/B testing]] scenarios.
 - Use **internal ingress** and **[[service discovery]]** for secure internal-only endpoints with built-in [[DNS]]-based service discovery.
 - Build microservices with [[Dapr]] and access its rich set of APIs.
-- Run containers from any registry, public or private, including Docker Hub and  [[azure-container-registry]].
-- Use the Azure CLI extension, Azure portal or ARM templates to manage your applications.
+- Run containers from any registry, public or private, including Docker Hub and  [[Azure Container Registry]].
+- Use the Azure CLI extension, Azure portal or #ARM templates to manage your applications.
 - Provide an existing virtual network when creating an environment for your container apps.
 - Securely manage secrets directly in your application.
 - Monitor logs using Azure Log Analytics.
 
 Applications built on Azure Container Apps can **dynamically scale** based on HTTP traffic, event-driven processing, CPU or memory load, and any KEDA-supported scaler.
 
-It's a #paas service.
-
 It's optimized for running general purpose containers, especially for applications that span many #microservices deployed in containers.
 
-It incorporates **Service Discovery**, **Load Balancing** and **Scaling (also independent)**.
+It incorporates [[Service Discovery]], **[[Load Balancing]]** and **[[Scaling]] (also independent)**.
 
 Azure Container Apps provides the flexibility you need with a serverless container service built for microservice applications and robust autoscaling capabilities without the overhead of managing complex infrastructure.
 
@@ -46,15 +50,15 @@ There are two **limitations**:
 - you can only use container images based on #Linux;
 - you cannot try to perform operations as root.
 
-You can define [[azure-container-apps-authentication]].
+You can define [[Azure Container Apps Authentication]].
 
-There's a great integration with Dapr: [[azure-container-apps-with-dapr]].
+There's a great integration with Dapr: [[Azure Container Apps with Dapr]].
 
 ## Azure Container Apps environments
 
 Individual container apps are deployed to a **single Container Apps environment**, which acts as a secure boundary around groups of container apps.
 
-Container Apps in the same environment are deployed **in the same virtual network** and **write logs to the same Log Analytics workspace**.
+Container Apps in the same environment are deployed **in the same virtual network** and **write logs to the same [[Log Analytics]] workspace**.
 
 You may provide an existing [[azure-virtual-network]] when you create an environment.
 

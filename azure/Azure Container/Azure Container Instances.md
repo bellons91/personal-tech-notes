@@ -1,8 +1,15 @@
 ---
-tags: az-204, azure, containers, aci, docker, az-900, paas
+tags:
+  - az-204
+  - azure
+  - containers
+  - aci
+  - docker
+  - az-900
+  - paas
+aliases:
+  - ACI
 ---
-
-# Azure Container Instances (ACI)
 
 ACI is a solution for any scenario that can operate in **isolated containers**, including simple applications, task automation, and build jobs.
 
@@ -22,7 +29,7 @@ You can deploy ACI by using [[arm-templates]] (best suited for complex scenarios
 
 **Fast startup**: ACI can start containers in Azure in seconds, without the need to provision and manage VMs
 
-**Container access**: ACI enables exposing your [[aci-container-group]] directly to the internet with an IP address and a fully qualified domain name ([[FQDN]])
+**Container access**: ACI enables exposing your [[Azure Container Instances Container Group]] directly to the internet with an IP address and a fully qualified domain name ([[FQDN]])
 
 **Hypervisor-level security**: Isolate your application as completely as it would be in a VM.
 
