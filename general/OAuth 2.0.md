@@ -1,3 +1,9 @@
+---
+tags:
+  - security
+  - identity
+  - authentication
+---
 
  OAuth 2.0 is a method through which a third-party app can access web-hosted resources on behalf of a user.
 

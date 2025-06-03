@@ -1,12 +1,14 @@
 ---
-tags: csharp, async
+tags:
+  - csharp
+  - async
+  - cpu
+  - performance
 ---
-
-# CPU-bound operations
 
 An example of CPU-bound code is such as performing an expensive calculation.
 
-For CPU-bound code, you await an operation that is started on a background thread with the Task.Run method.
+For CPU-bound code, you await an operation that is started on a background thread with the `Task.Run` method.
 
 For example, you can use
 

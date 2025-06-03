@@ -8,7 +8,7 @@ It offers automatic scaling and high availability.
 
 It is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends.
 
-With Azure App Service you can both [[scale-up-down]] and [[scale-in-out]].
+With Azure App Service you can both [[Scale up]] and [[Scale out]].
 
 You can use CI/CD and [[Azure App Services Deployment Slots]].
 

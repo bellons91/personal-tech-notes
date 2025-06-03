@@ -10,7 +10,7 @@ aliases:
   - Azure RBAC
 ---
 
-It allows the implementation of the [[principle-of-least-privilege]] by defining roles that can be assigned to users.
+It allows the implementation of the [[Principle of Least Privilege]] by defining roles that can be assigned to users.
 
 Each role has a set of access permissions to resources.
 

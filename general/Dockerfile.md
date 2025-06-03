@@ -1,8 +1,8 @@
 ---
-tags: docker
+tags:
+  - docker
+  - containers
 ---
-
-# Dockerfile
 
 A Dockerfile is a script that contains a series of instructions that are used to build a [[Docker]] image.
 

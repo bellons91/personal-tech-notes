@@ -2,8 +2,6 @@
 tags: security, authentication
 ---
 
-# Defense-in-depth strategy
-
 The objective of defense-in-depth is to **protect information and prevent it from being stolen** by those who aren't authorized to access it.
 
 Defense-in-depth is a set of layers, where each layer is an additional protection.

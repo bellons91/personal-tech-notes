@@ -34,7 +34,7 @@ If an outage occurs in a single availability zone, **you're responsible for fail
 
 A resource can be deployed to a specific, self-selected availability zone to achieve **more stringent latency or performance requirements**.
 
-Eg: [[Azure Virtual Machines]], IP Addresses. **Typically supported by [[iaas]]**.
+Eg: [[Azure Virtual Machines]], IP Addresses. **Typically supported by [[Infrastructure-as-a-Service]]**.
 
 ### Zone-redundant service
 

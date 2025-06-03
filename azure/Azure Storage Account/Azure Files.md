@@ -6,7 +6,7 @@ tags:
   - storage
   - azure-storage-account
 ---
-It's a fully managed solution to share files in the cloud using standard protocols, such as [[smb-protocol]] (accessible from Windows, Linux, and macOS clients) or [[Network File System (NFS)]] (accessible from Linux and macOS clients).
+It's a fully managed solution to share files in the cloud using standard protocols, such as [[Server Message Block protocol]] (accessible from Windows, Linux, and macOS clients) or [[Network File System (NFS)]] (accessible from Linux and macOS clients).
 
 Given that SMB and NFS are industry standards, you can replace your current file share with the one hosted on Azure.
 

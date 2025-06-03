@@ -32,6 +32,6 @@ Azure Entra can handle several types of authentication:
 - SSO
 - MFA
 - passwordless authentication (eg, Windows Hello for Business)
-- [[fido2-authentication]]
+- [[FIDO2 authentication]]
 
 You can finally manage users from external sources by using [[Azure Entra External Identities]].

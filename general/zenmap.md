@@ -1,8 +1,9 @@
 ---
-tags: security, tools
+tags:
+  - security
+  - tools
+  - networking
 ---
-
-# ZenMap
 
 [ZenMap](https://nmap.org/zenmap/) is a free, opensource, tool that allows for _port scanning_.
 

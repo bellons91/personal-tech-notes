@@ -55,7 +55,7 @@ Also, [[Azure Role-Based Access Control]] is available for both data and managem
 
 You can **assign RBAC roles scoped to a subscription, resource group, storage account, or an individual container or queue** to a security principal or a managed identity for Azure resources.
 
-**Data in transit between an application and Azure can be secured** by using Client-Side Encryption, HTTPS, or [[smb-protocol]] 3.0.
+**Data in transit between an application and Azure can be secured** by using Client-Side Encryption, HTTPS, or [[Server Message Block protocol]] 3.0.
 
 **OS and data disks used by Azure virtual machines can be encrypted** using Azure Disk Encryption.
 

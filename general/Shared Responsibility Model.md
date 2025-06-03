@@ -1,8 +1,11 @@
 ---
-tags: azure, cloud, az-900
+tags:
+  - azure
+  - cloud
+  - az-900
+aliases:
+  - SRM
 ---
-
-# Shared Responsibility Model
 
 There are some responsibilities to take into account when building a server factory, such as:
 
@@ -22,6 +25,6 @@ Depending on the **cloud service model**, responsibilities are shared in a diffe
 
 ![Shared Responsibility](shared-responsibility-model.svg)
 
-- [[iaas]] places most of the responsibility on the consumer; the cloud vendor is only responsible for physical security and connectivity;
-- [[saas]] places most of the responsibilities on the cloud vendor;
+- [[Infrastructure-as-a-Service]] places most of the responsibility on the consumer; the cloud vendor is only responsible for physical security and connectivity;
+- [[Software-as-a-Service]] places most of the responsibilities on the cloud vendor;
 - [[paas]] is in the middle.

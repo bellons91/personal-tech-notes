@@ -2,8 +2,6 @@
 tags: azure, cloud, az-900
 ---
 
-# Cloud Models
-
 The cloud models define the deployment type of cloud resources.
 
 ## Private Cloud

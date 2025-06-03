@@ -31,9 +31,9 @@ Examples are:
   - **[[Always On]]**: disabled by default;
   - **Managed pipeline version**: The IIS pipeline mode. Set it to _Classic_ if you have a legacy app that requires an older version of IIS.
   - **HTTP version**: Set to 2.0 to enable support for HTTPS/2 protocol.
-  - **[[arr-affinity]]**: In a multi-instance deployment, ensure that the client is routed to the same instance for the life of the session. You can set this option to _Off_ for stateless applications.
+  - **[[ARR Affinity]]**: In a multi-instance deployment, ensure that the client is routed to the same instance for the life of the session. You can set this option to _Off_ for stateless applications.
 - **Debugging**: Enable remote debugging for ASP.NET, ASP.NET Core, or Node.js apps. This option turns off automatically after 48 hours.
-- **Incoming client certificates**: require client certificates in mutual authentication. [[tls]] mutual authentication is used to restrict access to your app by enabling different types of authentication for it.
+- **Incoming client certificates**: require client certificates in mutual authentication. [[Transport Layer Security]] mutual authentication is used to restrict access to your app by enabling different types of authentication for it.
 
 ## Path mappings
 
@@ -126,7 +126,7 @@ In the App Service file system, these log files are the contents of the /home/Lo
 
 ## Configuring certificates
 
-Azure App Service has tools that let you create, upload, or import a private certificate or a public [[certificate]] into App Service.
+Azure App Service has tools that let you create, upload, or import a private certificate or a public [[Certificate]] into App Service.
 
 A certificate uploaded into an app is stored in a deployment unit that is bound to the app service plan's resource group and region combination (internally called a webspace). This makes the certificate accessible to other apps in the same resource group and region combination.
 
@@ -135,4 +135,4 @@ You can either:
 - **Create a free App Service managed certificate**: you need a Basic, Standard, Premium or Isolated tier; it's a TLS/SSL server certificate that's fully managed by App Service and **renewed continuously and automatically in six-month increments**, 45 days before expiration. You create the certificate and bind it to a custom domain, and let App Service do the rest.
 - Purchase an App Service certificate;
 - **Import a certificate from Key Vault**: the certificate is then stored in [[azure-key-vault]];
-- Upload a private certificate (it must be stored in a [[pfx-file]] and encrypted with [[triple-des]])
+- Upload a private certificate (it must be stored in a [[PFX file]] and encrypted with [[Triple-DES]])

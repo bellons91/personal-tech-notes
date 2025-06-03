@@ -1,4 +1,9 @@
-
+---
+tags:
+  - cloud
+aliases:
+  - PaaS
+---
 The cloud provider maintains:
 
 - physical infrastructure

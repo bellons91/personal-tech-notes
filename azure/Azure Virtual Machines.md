@@ -10,7 +10,7 @@ aliases:
   - Azure VM
 ---
 
-VMs provide [[iaas]] in the form of a **virtualized server**. You don't have to handle physical hardware, but you still need to configure, update, and maintain the software that runs on the VM.
+VMs provide [[Infrastructure-as-a-Service]] in the form of a **virtualized server**. You don't have to handle physical hardware, but you still need to configure, update, and maintain the software that runs on the VM.
 
 You can create and provision a VM by selecting a preconfigured **VM image**. An image is a template used to create a VM and may already include an OS and other software, like development tools or web hosting environments.
 

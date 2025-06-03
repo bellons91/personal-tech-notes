@@ -1,9 +1,12 @@
 ---
-tags: azure, cloud, az-900, iaas
+tags:
+  - azure
+  - cloud
+  - az-900
+  - iaas
+aliases:
+  - IaaS
 ---
-
-# IaaS - Infrastructure-as-a-Service
-
 The cloud provider is responsible for
 
 - maintaining the hardware
@@ -18,7 +21,7 @@ The client is responsible for:
 - network configuration
 - database and storage configuration
 
-In the [[shared-responsibility-model]], IaaS places the largest share of responsibility with the client.
+In the [[Shared Responsibility Model]], IaaS places the largest share of responsibility with the client.
 
 ## List of Azure services
 

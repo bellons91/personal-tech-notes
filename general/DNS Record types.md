@@ -1,8 +1,8 @@
 ---
-tags: dns
+tags:
+  - dns
+  - networking
 ---
-
-# DNS Record types
 
 [[DNS]] record types are used to map domain names to IP addresses and other information. Here are some of the main DNS record types and their descriptions:
 
@@ -64,7 +64,7 @@ Also known as a Secure Shell fingerprint record, it maps a domain name to the fi
 
 ## TLSA
 
-Also known as a [[tls]] authentication record, it maps a domain name to the certificate or public key of a server. This record is used to authenticate the server’s identity and establish a secure connection. For example, a TLSA record for the domain name \_443.\_tcp.example.com could be \_443.\_tcp.example.com. IN TLSA 3 1 1 abcd....
+Also known as a [[Transport Layer Security]] authentication record, it maps a domain name to the certificate or public key of a server. This record is used to authenticate the server’s identity and establish a secure connection. For example, a TLSA record for the domain name \_443.\_tcp.example.com could be \_443.\_tcp.example.com. IN TLSA 3 1 1 abcd....
 
 ## TXT
 

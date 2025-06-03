@@ -1,4 +1,10 @@
-  
+---
+tags:
+  - software-architecture
+  - soft-skills
+  - risk
+---
+
 
 Every project has its share of risks that can impact its success or its failure.
 

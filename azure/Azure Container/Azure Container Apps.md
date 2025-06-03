@@ -129,7 +129,7 @@ When using [[Azure Resource Manager]] templates, you can define the info about t
 
 Notice that you can also specify [[probes]] to ensure that the container is live.
 
-You can define **multiple containers** in a single container app to implement the [[sidecar-pattern]]. The containers in a container app share hard disk and network resources and experience the same application lifecycle.
+You can define **multiple containers** in a single container app to implement the [[Sidecar pattern]]. The containers in a container app share hard disk and network resources and experience the same application lifecycle.
 
 ## Container registries
 

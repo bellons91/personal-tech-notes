@@ -28,7 +28,7 @@ An example of command is `az acr build`, which takes the context, sends it to AC
 
 Enable one or more triggers to **build an image**:
 
-- **Trigger on source code update**: you can configure to build the image every time new code is committed, or a pull request is made or updated, by using `az acr task create`, specifying the Git repo, the branch and the [[docker-file]].
+- **Trigger on source code update**: you can configure to build the image every time new code is committed, or a pull request is made or updated, by using `az acr task create`, specifying the Git repo, the branch and the [[Dockerfile]].
 - **Trigger on base image update**: You can set up an ACR task to **track a dependency on a base image** when it builds an application image. When the updated base image is pushed to your registry, or a base image is updated in a public repo such as in [[Docker Hub]], ACR Tasks can automatically build any application images based on it.
 - **Trigger on a schedule**: set up one or more timer triggers when you create or update the task. Scheduling a task is useful for running container workloads on a defined schedule, or running **maintenance operations or tests on images** pushed regularly to your registry.
 

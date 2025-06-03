@@ -1,8 +1,11 @@
 ---
-tags: file-system
+tags:
+  - file-system
+  - protocol
+  - networking
+aliases:
+  - SMB protocol
 ---
-
-# Server Message Block (SMB) protocol
 
 The Server Message Block (SMB) protocol is a **network file sharing protocol** that allows applications on a computer to read and write to files and to request services from server programs in a computer network.
 
