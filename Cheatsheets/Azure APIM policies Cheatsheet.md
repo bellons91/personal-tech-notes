@@ -1,5 +1,9 @@
-# Azure APIM policies
-
+---
+tags:
+  - api
+  - apim
+  - api-management
+---
 ## Struttura base
 
 Le policy sono gestite in 4 parti:

@@ -1,8 +1,10 @@
 ---
-tags: sql, tsql
+tags:
+  - sql
+  - tsql
+  - database
+  - query
 ---
-
-# SQL/TSQL Cheatsheet
 
 ## Fare Count in SELECT
 

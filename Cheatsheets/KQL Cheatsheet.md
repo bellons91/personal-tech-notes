@@ -1,4 +1,11 @@
-# Esempi query KQL
+---
+tags:
+  - kql
+  - kusto
+  - application-insights
+  - query
+  - logs
+---
 
 ## Sort columns, specifying only the first ones to show
 
