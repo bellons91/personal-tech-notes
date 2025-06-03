@@ -1,8 +1,9 @@
 ---
-tags: csharp, nuget, dotnet
+tags:
+  - nuget
+  - dotnet
+  - powershell
 ---
-
-# How to list all the installed NuGet Packages
 
 There is a simple command that can be run to list all the NuGet packages installed in a solution or a project, as well as listing the .NET version used by each project: `dotnet list package`.
 

@@ -2,8 +2,6 @@
 tags: visual-studio
 ---
 
-# How to open Visual Studio in a Sandbox on Windows
-
 To run Visual Studio without all the configurations, themes, and references to user settings, you need to run an instance in a **sandbox**.
 
 On Windows, open a Powershell or the VS2022 Developer Console:

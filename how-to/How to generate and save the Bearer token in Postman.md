@@ -1,8 +1,10 @@
 ---
-tags: postman, authentication
+tags:
+  - postman
+  - authentication
+  - token
+  - bearer-token
 ---
-
-# How to generate and save the Bearer token in Postman
 
 In the Prerequest Scripts section of a Postman collection, use this script to generate a [[bearer-token]] and store it in a variable named `Token`.
 

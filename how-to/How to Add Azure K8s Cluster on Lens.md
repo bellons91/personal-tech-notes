@@ -2,12 +2,9 @@
 tags: azure, k8s, lens
 ---
 
-# How to Add Azure K8s Cluster on Lens?
-
 To navigate a K8S Cluster locally, you need a tool, like Lens.
 
 If the cluster is stored on Azure:
-
 ## Find the cluster connection info on Azure
 
 First of all, head to [Azure Portal](https://portal.azure.com/), under the _Kubernetes services_ section:

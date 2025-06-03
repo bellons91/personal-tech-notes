@@ -2,8 +2,6 @@
 tags: csharp, visual-studio
 ---
 
-# How to use Editorconfig
-
 Having tidy code with shared formatting rules is useful and more elegant.
 
 In a .NET application, you can add an _editorconfig_ file with all the formatting rules.

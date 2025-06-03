@@ -2,8 +2,6 @@
 tags: k8s, lens
 ---
 
-# How to print Environment Variables in a K8s Pod
-
 To list all the environment variables in a K8S pod, open the shell of the POD and run
 
 ```plaintext

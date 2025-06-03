@@ -2,8 +2,6 @@
 tags: git, dotnet
 ---
 
-# How to Use Husky.NET Pre-commit hooks
-
 If you need to run operations before completing a Git Commit, you must rely on Git Hooks.
 
 I've already described how to use [Husky with NPM](https://www.code4it.dev/blog/conventional-commit-with-githooks/), but here I'm gonna use [Husky.NET](https://alirezanet.github.io/Husky.Net/), the version of Husky created for .NET applications.
@@ -73,7 +71,7 @@ git commit -m "my message" --no-verify
 
 ## Related notes
 
-[[how-to-use-editorconfig]]
+[[How to use Editorconfig]]
 
 ## External references
 

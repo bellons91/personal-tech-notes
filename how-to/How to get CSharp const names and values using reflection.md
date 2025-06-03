@@ -1,8 +1,8 @@
 ---
-tags: csharp
+tags:
+  - csharp
+  - reflection
 ---
-
-# How to get C# const names and values using reflection
 
 You have a `static` class that you only use to store some constants, and you want to get all the values stored within the class.
 

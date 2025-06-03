@@ -2,8 +2,6 @@
 tags: process, cmd, powershell, windows
 ---
 
-# How to Kill Process by Id on PowerShell
-
 To retrieve the info about a process given its PID, for example, _85188_, you can use the **PowerShell** command `Get-Process`:
 
 ```cmd
@@ -22,7 +20,7 @@ taskkill /PID 85188 /F
 
 ## Related notes
 
-[[how-to-find-the-process-bound-to-a-port]]
+[[How to find the process that is bound to a Port]]
 
 ## External references
 

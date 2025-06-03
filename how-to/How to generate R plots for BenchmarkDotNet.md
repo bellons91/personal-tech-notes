@@ -2,8 +2,6 @@
 tags: r, benchmarkdotnet, performance, benchmark, dotnet
 ---
 
-# How to generate R plots for BenchmarkDotNet
-
 [R](https://cran.r-project.org/bin/windows/base/) is a framework to generate graphics and computations.
 
 To use it to generate graphics for BenchmarkDotNet you have to follow these steps:

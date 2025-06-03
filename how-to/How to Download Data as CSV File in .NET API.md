@@ -2,8 +2,6 @@
 tags: dotnet, csharp, csv, api
 ---
 
-# How to Download Data as CSV File in .NET API
-
 If you have to generate a CSV file and return it from a .NET API endpoint, you have to **install the CsvHelper NuGet package**, and then add the following section:
 
 ```cs
@@ -37,4 +35,4 @@ It creates an array of bytes (`byte[] result`), with the data expected to be par
 
 ## See also
 
-[[how-to-read-data-from-csv-api-response]]
+[[How to Read Data From Csv API Response]]

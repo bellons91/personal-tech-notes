@@ -2,8 +2,6 @@
 tags: sql, ssms
 ---
 
-# How to view last executed queries in SSMS 2019
-
 If you want to access the list of queries executed on a specific database (in this case, `proveDavide`), use this query.
 
 ```sql

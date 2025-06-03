@@ -2,9 +2,7 @@
 tags: dotnet, csharp, csv, api
 ---
 
-# How to Read Data From Csv API Response
-
-If you have an API endpoint that returns a CSV file (as explained in [[how-to-download-data-as-csv-file]]), you can read it by first **installing the CsvHelper NuGet package**, and then by reading the HTTP response content:
+If you have an API endpoint that returns a CSV file (as explained in [[How to Download Data as CSV File in .NET API]]), you can read it by first **installing the CsvHelper NuGet package**, and then by reading the HTTP response content:
 
 ```cs
 HttpResponseMessage response = await client.GetAsync($"/api/downloadCsv");

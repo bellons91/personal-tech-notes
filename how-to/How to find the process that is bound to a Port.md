@@ -2,8 +2,6 @@
 tags: tcp, cmd, powershell, windows, linux
 ---
 
-# How to find the process that is bound to a Port
-
 If you have the port _1313_ used by a process, and you want to kill that process to free up that port, you can follow these steps.
 
 Depending on the machine and the shell, there are different ways.

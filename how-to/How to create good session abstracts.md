@@ -2,8 +2,6 @@
 tags: public-speaking
 ---
 
-# How to create good session abstracts
-
 1. Explain why people should follow your session
 2. Explain why you are the best person to talk about it;
 3. Use **bullet points** to list the topics covered by this session. List them in the order they will occur;
