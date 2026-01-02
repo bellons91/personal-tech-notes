@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a5ed3293080d5ebd",
+        "id": "99a740da52d84fab",
         "type": "tabs",
         "children": [
           {
-            "id": "57a0605ccb6ff5a8",
+            "id": "523934b142638d36",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "how-to/visual-studio-name.png"
+                "file": "General.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "visual-studio-name"
+              "icon": "lucide-file",
+              "title": "General"
             }
           }
         ]
@@ -155,8 +157,8 @@
             "state": {
               "type": "broken-links-view",
               "state": {},
-              "icon": "unlink",
-              "title": "Broken links"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -174,10 +176,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "templates:Insert template": false,
@@ -188,8 +192,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "57a0605ccb6ff5a8",
+  "active": "523934b142638d36",
   "lastOpenFiles": [
+    "azure/Azure Authentication/Microsoft Identity Platform.md",
+    "azure/Azure Authentication/Microsoft Entra tenant.md",
+    "azure/Azure Authentication/Microsoft Authentication Library.md",
+    "azure/Azure Authentication/Managed Identity.md",
+    "azure/Azure Authentication/Stored Access Policies.md",
+    "azure/Azure Authentication/Shared Access Signatures.md",
+    "Pasted image 20251111212627.png",
+    "General.md",
+    "general/Artificial Intelligence from IBM courses.md",
+    "how-to/visual-studio-name.png",
     "how-to/How to view last executed queries in SSMS 2019.md",
     "how-to/How to Use Husky.NET Pre-commit hooks.md",
     "how-to/How to use Editorconfig.md",
@@ -208,14 +222,6 @@
     "general/Zero Trust security model.md",
     "general/ZenMap.md",
     "general/Zed Attack Proxy.md",
-    "general/Triple-DES.md",
-    "general/Transport Layer Security.md",
-    "general/Software-as-a-Service.md",
-    "general/Server Message Block protocol.md",
-    "general/Sidecar pattern.md",
-    "general/Shared Responsibility Model.md",
-    "general/Scale up.md",
-    "general/Scale out.md",
     "general/risk-matrix.png",
     "general/defense-in-depth-layers.png",
     "general/dapr-apis.png",
@@ -226,8 +232,6 @@
     "templates",
     "general/shared-responsibility-model.svg",
     "general",
-    "azure/Azure Storage Account/zrs.png",
-    "azure/Azure Storage Account/lrs.png",
     "azure/Azure Storage Account",
     "azure/Azure Functions",
     "azure/Azure Entra",
